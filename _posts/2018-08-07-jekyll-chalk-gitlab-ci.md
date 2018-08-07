@@ -10,7 +10,7 @@ tags:
 - GitLab
 - CI / CD
 thumb_image: "/wp-content/jekyll-gitlab-continous-integration.jpg"
-image: "/wp-content/jekyll-gitlab-continous-integration.jpg"
+image: "/assets/uploads/jekyll-gitlab-continous-integration.jpg"
 
 ---
 This blog is now powered by [Jekyll](https://jekyllrb.com), a static site generator. As theme, I'm using the fabulous [Chalk theme from Nielsen Ramon](https://github.com/nielsenramon/chalk). Chalk is a high quality, completely customizable, performant and 100% free Jekyll blog theme.
@@ -66,3 +66,5 @@ Since Chalk was originally developed for [GitHub Pages](https://pages.github.com
         paths:
           - public
     {% endhighlight %}
+
+ 
