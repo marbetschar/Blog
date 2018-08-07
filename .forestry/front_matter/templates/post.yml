@@ -6,6 +6,9 @@ fields:
 - type: text
   label: Title
   name: title
+- type: textarea
+  name: description
+  label: Description
 - type: text
   label: Permalink
   name: permalink
