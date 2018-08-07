@@ -3,11 +3,11 @@ id: 391
 title: Product URL without Type
 date: 2015-12-26T14:52:50+00:00
 author: Marco Betschart
-excerpt: Produkte in WooCommerce aufrufen, ohne den /product Slug in der URL.
+description: Produkte in WooCommerce aufrufen, ohne den /product Slug in der URL.
 layout: post
 guid: http://marco.betschart.name/?p=391
 permalink: /product-url-without-type/
-image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
 tags:
   - PHP
   - WooCommerce

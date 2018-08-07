@@ -3,11 +3,11 @@ id: 403
 title: "@import media query"
 date: 2015-12-19T18:30:07+00:00
 author: Marco Betschart
-excerpt: CSS Code in Dateien auslagern und anhand von media queries anwenden.
+description: CSS Code in Dateien auslagern und anhand von media queries anwenden.
 layout: post
 guid: http://marco.betschart.name/?p=403
 permalink: /import-media-query/
-image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
 tags:
   - CSS
 ---

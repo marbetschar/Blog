@@ -20,7 +20,7 @@ And all of this is based upon [GitLab.com](GitLab.com) - my new home for all dev
 Since Chalk was originally developed for [GitHub Pages](https://pages.github.com), we had to add some `.gitlab-ci.yml` magic to build the blog automatically upon every commit - and deploy it using [GitLab Pages](https://about.gitlab.com/features/pages/). Here it is; the final GitLab.com CI / CD script:
 
     {% highlight yml %}
-    image: ruby:2.3
+    thumb_image: ruby:2.3
     
     before_script:
     # Configure UTF-8 support for server

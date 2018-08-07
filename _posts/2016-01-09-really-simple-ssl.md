@@ -3,11 +3,11 @@ id: 411
 title: Really Simple SSL
 date: 2016-01-09T18:31:24+00:00
 author: Marco Betschart
-excerpt: 'SSL für die gesamte WordPress Webseite - mit nur einem Klick!'
+description: 'SSL für die gesamte WordPress Webseite - mit nur einem Klick!'
 layout: post
 guid: http://marco.betschart.name/?p=411
 permalink: /really-simple-ssl/
-image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
 tags:
   - Plugin
   - WordPress

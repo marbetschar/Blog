@@ -1,4 +1,4 @@
-image: ruby:2.3
+thumb_image: ruby:2.3
 
 before_script:
 # Configure UTF-8 support for server

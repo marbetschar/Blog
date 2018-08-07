@@ -3,11 +3,11 @@ id: 284
 title: Code Snippets Shortcode
 date: 2015-12-17T15:47:57+00:00
 author: Marco Betschart
-excerpt: Ein Shortcode für das fantastische Code Snippets Plugin um Snippets aus diesem Plugin auch im Frontend darzustellen.
+description: Ein Shortcode für das fantastische Code Snippets Plugin um Snippets aus diesem Plugin auch im Frontend darzustellen.
 layout: post
 guid: http://marco.betschart.name/?p=284
 permalink: /code-snippets-shortcode/
-image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
 tags:
   - PHP
   - WordPress

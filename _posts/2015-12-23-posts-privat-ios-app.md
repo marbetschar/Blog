@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=355
 permalink: /posts-privat-ios-app/
-image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
 tags:
   - PHP
   - WordPress

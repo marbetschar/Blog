@@ -1,12 +1,9 @@
 ---
-id: 74
 title: 48 Days To The Work You Love
 date: 2015-07-28T21:20:16+00:00
-author: Marco Betschart
 layout: post
-guid: http://marco.betschart.name/?p=74
 permalink: /48-days-to-the-work-you-love/
-image: /wp-content/uploads/2015/07/48-days-to-the-work-you-love-256x256.jpg
+thumb_image: /wp-content/uploads/2015/07/48-days-to-the-work-you-love-256x256.jpg
 tags:
   - Bücher
   - Wunschzettel

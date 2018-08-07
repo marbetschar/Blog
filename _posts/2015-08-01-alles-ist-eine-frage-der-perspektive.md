@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=225
 permalink: /alles-ist-eine-frage-der-perspektive/
-image: /wp-content/uploads/2015/07/owl1-256x256.jpg
+thumb_image: /wp-content/uploads/2015/07/owl1-256x256.jpg
 tags:
   - Weisheiten
 ---

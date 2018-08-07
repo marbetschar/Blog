@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=124
 permalink: /moudis-lecker-garten/
-image: /wp-content/uploads/2015/07/moudis-256x256.jpg
+thumb_image: /wp-content/uploads/2015/07/moudis-256x256.jpg
 tags:
   - Lesezeichen
   - Genuss

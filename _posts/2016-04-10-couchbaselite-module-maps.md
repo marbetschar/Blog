@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: https://marco.betschart.name/?p=587
 permalink: /couchbaselite-module-maps/
-image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
 tags:
   - Technologie
 ---

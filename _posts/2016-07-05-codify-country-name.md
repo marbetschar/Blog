@@ -6,7 +6,7 @@ description: Java snippet to codify country names to their ISO country code and 
 author: Marco Betschart
 layout: post
 permalink: "/codify-country-name/"
-image: "/wp-content/uploads/2015/12/code-1084923-256x256.png"
+thumb_image: "/wp-content/uploads/2015/12/code-1084923-256x256.png"
 tags:
 - Java
 

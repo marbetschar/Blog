@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=253
 permalink: /ios-storyboards/
-image: /wp-content/uploads/2015/08/apple-256x256.jpg
+thumb_image: /wp-content/uploads/2015/08/apple-256x256.jpg
 tags:
   - Technologie
 ---

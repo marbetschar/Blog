@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=148
 permalink: /leadership-answer-man/
-image: /wp-content/uploads/2015/07/leadership-answer-man.jpeg
+thumb_image: /wp-content/uploads/2015/07/leadership-answer-man.jpeg
 tags:
   - Empfehlungen
   - Podcasts
