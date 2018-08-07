@@ -17,7 +17,7 @@ rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
-  facebook: marbetschar # Add your Facebook handle
+  facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
   github: marbetschar # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
@@ -31,7 +31,7 @@ social:
   discord: # Add you Discord server invitation ID
   tumblr: # Add your Tumblr handle
   bitbucket: # Add your Bitbucket handle
-  docker: marbetschar # Add your Docker Hub handle
+  docker: # Add your Docker Hub handle
   instagram: # Add your Instagram handle
   keybase: # Add your Keybase handle
   medium: # Add your Medium handle
