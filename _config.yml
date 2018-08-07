@@ -3,7 +3,7 @@
 blog_theme: dark # Or use light
 name: Marco Betschart
 paginate: 25
-url: https://marco-betschart.gitlab.io/blog.marco-betschart.gitlab.io # add your site url (format: https://example.com)
+url: http://blog.marco.betschart.name
 
 
 # Optional settings
