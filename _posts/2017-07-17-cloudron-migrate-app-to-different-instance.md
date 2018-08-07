@@ -1,16 +1,16 @@
 ---
-id: 729
 title: 'Cloudron: Migrate app to different instance'
 date: 2017-07-17 19:18:04 +0000
-author: Marco Betschart
 layout: post
-guid: ''
+description: "Howto migrate apps from one Cloudron to another."
 permalink: "/cloudron-migrate-app-to-different-instance/"
 tags:
 - Cloudron
 - Linux
-
+thumb_image: uploads/2018/08/cloudron-docker-container.jpg
 ---
+{% include image.html path="uploads/2018/08/cloudron-docker-container.jpg" path-detail="uploads/2018/08/cloudron-docker-container.jpg" alt="Cloudron: Migrate app to different instance" %}
+
 Migrating apps from one Cloudron to another works by first creating a new backup of the app on the old Cloudron, copying the backup tarball onto the new Clodron’s backup storage and then installing a new app, based on the backup on the new Cloudron.
 
 #### Prerequisites
