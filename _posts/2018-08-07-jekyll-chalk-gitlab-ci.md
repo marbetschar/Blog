@@ -17,8 +17,7 @@ And all of this is based upon GitLab.com - my new home for all development proje
 
 Since Chalk was originally developed for GitHub Pages, we had to add some .gitlab-ci.yml magic to build the blog automatically upon every commit. Here it is; the final GitLab.com CI script:
 
-{% highlight yml %}
-
+    {% highlight yml %}
     image: ruby:2.3
     
     before_script:
@@ -64,5 +63,4 @@ Since Chalk was originally developed for GitHub Pages, we had to add some .gitla
       artifacts:
         paths:
           - public
-
-{% endhighlight %}
+    {% endhighlight %}
