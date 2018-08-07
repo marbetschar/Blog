@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "How to configure Chalk"
-description: "Learn more about the config file for Chalk and how to set it up properly."
-tags: [web, jekyll]
----
+title: How to configure Chalk
+description: Learn more about the config file for Chalk and how to set it up properly.
+tags:
+- web
+- jekyll
 
+---
 The `_config.yml` file is the most important one. It contains the basic setup of your project.
 Some parts are preconfigured and shouldn't be touched as the comments state.
 Of course if you are familiar with Jekyll you can change whatever you want.
