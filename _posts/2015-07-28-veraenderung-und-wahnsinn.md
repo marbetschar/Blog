@@ -1,0 +1,15 @@
+---
+id: 113
+title: Veränderung und Wahnsinn
+date: 2015-07-28T22:35:57+00:00
+author: Marco Betschart
+layout: post
+guid: http://marco.betschart.name/?p=113
+permalink: /veraenderung-und-wahnsinn/
+image: /wp-content/uploads/2015/07/owl1-256x256.jpg
+categories:
+  - Weisheiten
+---
+> Wahnsinn ist es, auf Veränderungen zu hoffen, ohne etwas zu verändern.
+  
+> <small>Albert Einstein</small>
