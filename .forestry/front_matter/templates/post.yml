@@ -12,6 +12,10 @@ fields:
   label: Layout
   name: layout
   default: post
+- type: file
+  name: thumb_image
+  label: Thumb Image
+  description: Image to be shown as embed in social media
 - type: text
   label: Title
   name: title
