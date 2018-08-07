@@ -17,50 +17,50 @@ And all of this is based upon GitLab.com - my new home for all development proje
 
 Since Chalk was originally developed for GitHub Pages, we had to add some .gitlab-ci.yml magic to build the blog automatically upon every commit. Here it is; the final GitLab.com CI script:
 
-{% highlight yml %}
-image: ruby:2.3
-
-before_script:
-# Configure UTF-8 support for server
-  - apt-get update >/dev/null
-  - apt-get install -y locales >/dev/null
-  - echo "en_US UTF-8" > /etc/locale.gen
-  - locale-gen en_US.UTF-8
-  - export LANG=en_US.UTF-8
-  - export LANGUAGE=en_US:en
-  - export LC_ALL=en_US.UTF-8
-# Configure Git to allow push (needs to be done in before_script)
-  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-  - eval $(ssh-agent -s)
-  - ssh-add <(echo "$GIT_SSH_PRIV_KEY" | base64 --decode)
-  - git config --global user.email "ci@gitlab.com"
-  - git config --global user.name "GitLab.com CI"
-  - mkdir -p ~/.ssh
-  - chmod 700 ~/.ssh
-  - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
-  - chmod 644 ~/.ssh/known_hosts
-
-compile:
-  only:
-    - marbetschar
-  stage: build
-  script:
-  # Install NodeJS
-    - curl -sL https://deb.nodesource.com/setup_8.x | bash -
-    - apt-get install -y nodejs >/dev/null
-  # Run actual build
-    - npm run setup
-    - npm run publish
-
-pages:
-  only:
-    - gh-pages
-  stage: build
-  script:
-    - mkdir public
-    - shopt -s extglob
-    - mv !(public) public
-  artifacts:
-    paths:
-      - public
-{% endhighlight %}
+    {% highlight yml %}
+    image: ruby:2.3
+    
+    before_script:
+    # Configure UTF-8 support for server
+      - apt-get update >/dev/null
+      - apt-get install -y locales >/dev/null
+      - echo "en_US UTF-8" > /etc/locale.gen
+      - locale-gen en_US.UTF-8
+      - export LANG=en_US.UTF-8
+      - export LANGUAGE=en_US:en
+      - export LC_ALL=en_US.UTF-8
+    # Configure Git to allow push (needs to be done in before_script)
+      - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+      - eval $(ssh-agent -s)
+      - ssh-add <(echo "$GIT_SSH_PRIV_KEY" | base64 --decode)
+      - git config --global user.email "ci@gitlab.com"
+      - git config --global user.name "GitLab.com CI"
+      - mkdir -p ~/.ssh
+      - chmod 700 ~/.ssh
+      - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+      - chmod 644 ~/.ssh/known_hosts
+    
+    compile:
+      only:
+        - marbetschar
+      stage: build
+      script:
+      # Install NodeJS
+        - curl -sL https://deb.nodesource.com/setup_8.x | bash -
+        - apt-get install -y nodejs >/dev/null
+      # Run actual build
+        - npm run setup
+        - npm run publish
+    
+    pages:
+      only:
+        - gh-pages
+      stage: build
+      script:
+        - mkdir public
+        - shopt -s extglob
+        - mv !(public) public
+      artifacts:
+        paths:
+          - public
+    {% endhighlight %}
