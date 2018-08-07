@@ -23,6 +23,7 @@ before_script:
 compile:
   only:
     - marbetschar
+  stage: build
   script:
   # Install NodeJS
     - curl -sL https://deb.nodesource.com/setup_8.x | bash -
@@ -34,8 +35,10 @@ compile:
 pages:
   only:
     - gh-pages
+  stage: build
   script:
     - mkdir public
+    - shopt -s extglob
     - mv !(public) public
   artifacts:
     paths:
