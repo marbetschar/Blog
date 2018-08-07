@@ -9,7 +9,6 @@ before_script:
   - export LANG=en_US.UTF-8
   - export LANGUAGE=en_US:en
   - export LC_ALL=en_US.UTF-8
-  - bundle install --jobs $(nproc) --path=/cache/bundler
 
 compile:
   stage: "build"
