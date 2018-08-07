@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=63
 permalink: /american-sniper/
 image: /wp-content/uploads/2015/07/american-sniper-256x256.jpg
-categories:
+tags:
   - Bücher
   - Wunschzettel
 ---

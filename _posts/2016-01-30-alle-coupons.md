@@ -7,8 +7,6 @@ layout: post
 guid: http://marco.betschart.name/?p=457
 permalink: /alle-coupons/
 image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
-categories:
-  - Technologie
 tags:
   - PHP
   - WooCommerce

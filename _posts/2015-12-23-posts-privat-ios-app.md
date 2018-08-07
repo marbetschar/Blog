@@ -7,8 +7,6 @@ layout: post
 guid: http://marco.betschart.name/?p=355
 permalink: /posts-privat-ios-app/
 image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
-categories:
-  - Technologie
 tags:
   - PHP
   - WordPress

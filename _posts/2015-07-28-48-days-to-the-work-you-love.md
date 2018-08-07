@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=74
 permalink: /48-days-to-the-work-you-love/
 image: /wp-content/uploads/2015/07/48-days-to-the-work-you-love-256x256.jpg
-categories:
+tags:
   - Bücher
   - Wunschzettel
 ---

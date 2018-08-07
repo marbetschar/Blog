@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=77
 permalink: /the-power-of-passion-in-leadership/
 image: /wp-content/uploads/2015/07/ThePowerOfPassionHeart-e1438111662908-256x256.jpg
-categories:
+tags:
   - Bücher
   - Empfehlungen
 ---

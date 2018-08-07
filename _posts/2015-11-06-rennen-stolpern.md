@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=275
 permalink: /rennen-stolpern/
 image: /wp-content/uploads/2015/11/musician-349790_1920-256x256.jpg
-categories:
+tags:
   - Musik
 ---
 <span class="embed-youtube" style="text-align:center; display: block;"></span>

@@ -8,8 +8,6 @@ layout: post
 guid: https://marco.betschart.name/?p=720
 permalink: /get-all-resource-paths-in-bundle-recursively/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
-  - Technologie
 tags:
   - Swift
 ---

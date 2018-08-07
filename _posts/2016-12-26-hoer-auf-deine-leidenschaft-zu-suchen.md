@@ -7,7 +7,7 @@ layout: post
 guid: https://marco.betschart.name/?p=700
 permalink: /hoer-auf-deine-leidenschaft-zu-suchen/
 image: /wp-content/uploads/2016/12/Screw-Finding-Your-Passion-256x256.jpg
-categories:
+tags:
   - Empfehlungen
   - Weisheiten
 ---

@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=342
 permalink: /beleuchtung-dimmen/
 image: /wp-content/uploads/2015/12/woman-653892_1920-256x256.jpg
-categories:
+tags:
   - Lifehacks
 ---
 Das iPhone schnell in den Nachtmodus setzen um seinen Augen etwas gutes zu tun und obendrein auch noch die Akkulaufzeit zu verbessern:

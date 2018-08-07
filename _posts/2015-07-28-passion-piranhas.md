@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=69
 permalink: /passion-piranhas/
 image: /wp-content/uploads/2015/07/piranhas-256x256.jpg
-categories:
+tags:
   - Empfehlungen
 ---
 [© Hans Finzel](http://www.hansfinzel.com/piranhas/){.broken_link}

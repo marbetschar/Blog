@@ -13,10 +13,9 @@ geo_longitude:
 geo_public:
   - "1"
 image: /wp-content/uploads/2015/07/tu-was-du-liebst-256x256.jpg
-categories:
+tags:
   - Bücher
   - Empfehlungen
-tags:
   - Unternehmertum
 ---
 [<img class="size-medium wp-image-167 alignleft" src="http://blog.marco.betschart.name/wp-content/uploads/2015/07/tu-was-du-liebst-232x300.jpg" alt="tu-was-du-liebst" width="232" height="300" srcset="http://dev.marco-betschart.local/wp-content/uploads/2015/07/tu-was-du-liebst-232x300.jpg 232w, http://dev.marco-betschart.local/wp-content/uploads/2015/07/tu-was-du-liebst-792x1024.jpg 792w, http://dev.marco-betschart.local/wp-content/uploads/2015/07/tu-was-du-liebst.jpg 1160w, http://dev.marco-betschart.local/wp-content/uploads/2015/07/tu-was-du-liebst-148x192.jpg 148w" sizes="(max-width: 232px) 100vw, 232px" />](http://blog.marco.betschart.name/wp-content/uploads/2015/07/tu-was-du-liebst.jpg){.broken_link}<https://itunes.apple.com/ch/book/tu-was-du-liebst-und-du-musst/id414047147>

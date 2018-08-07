@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: https://marco.betschart.name/?p=667
 permalink: /folderbar-a-new-approach-for-more-than-5-tabs-in-the-uitabbar/
-categories:
+tags:
   - Apps
   - Empfehlungen
   - Technologie

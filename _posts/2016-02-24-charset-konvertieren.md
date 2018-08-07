@@ -7,8 +7,6 @@ layout: post
 guid: https://marco.betschart.name/?p=553
 permalink: /charset-konvertieren/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
-  - Technologie
 tags:
   - Charset
   - Java

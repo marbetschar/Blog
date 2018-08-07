@@ -7,7 +7,7 @@ layout: post
 guid: https://marco.betschart.name/?p=587
 permalink: /couchbaselite-module-maps/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
+tags:
   - Technologie
 ---
 As convenient as the bridging header is, it has one key limitation—you can’t use it inside a framework project.  The alternative is to use a [module](http://clang.llvm.org/docs/Modules.html "Clang Module documentation").

@@ -7,7 +7,7 @@ layout: post
 guid: https://marco.betschart.name/?p=596
 permalink: /public-email-domain/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
+tags:
   - Technologie
 ---
 Check if a email string is an email address of a public email provider by just using this one liner in Swift:

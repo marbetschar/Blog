@@ -6,8 +6,6 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=479
 permalink: /git-restore-from-bundle/
-categories:
-  - Technologie
 tags:
   - Git
 ---

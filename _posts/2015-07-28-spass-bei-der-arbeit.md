@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=120
 permalink: /spass-bei-der-arbeit/
 image: /wp-content/uploads/2015/07/papagei-256x256.jpg
-categories:
+tags:
   - Idiotie
 ---
 > Wer lacht, hat noch Ressourcen frei. <small>Unbekannt</small>

@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=261
 permalink: /woher-kommt-das-tastaturlayout/
 image: /wp-content/uploads/2015/07/owl1-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 Am 14. Juli 1868 meldet der amerikanische Journalist, Buchdrucker und Erfinder Christopher Latham Sholes seine Schreibmaschine zum Patent an.

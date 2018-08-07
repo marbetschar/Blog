@@ -7,9 +7,8 @@ layout: post
 guid: http://marco.betschart.name/?p=96
 permalink: /passion-zone/
 image: /wp-content/uploads/2015/07/flamme-256x256.jpg
-categories:
-  - Empfehlungen
 tags:
+  - Empfehlungen
   - Unternehmertum
 ---
 [© Hans Finzel](http://www.hansfinzel.com/passion-zone/){.broken_link}

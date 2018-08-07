@@ -7,7 +7,7 @@ layout: post
 guid: https://marco.betschart.name/?p=574
 permalink: /xctassert/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
+tags:
   - Technologie
 ---
 ### Overview

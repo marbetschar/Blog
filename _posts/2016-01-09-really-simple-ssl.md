@@ -8,8 +8,6 @@ layout: post
 guid: http://marco.betschart.name/?p=411
 permalink: /really-simple-ssl/
 image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
-categories:
-  - Apps
 tags:
   - Plugin
   - WordPress

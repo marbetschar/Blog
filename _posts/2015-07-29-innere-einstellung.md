@@ -13,7 +13,7 @@ geo_longitude:
 geo_public:
   - "1"
 image: /wp-content/uploads/2015/07/owl1-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 > Ob du sagst, ich kann das oder ich kann das nicht: In beiden Fällen behältst du recht! <small>Henry Ford</small>

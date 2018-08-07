@@ -7,9 +7,8 @@ layout: post
 guid: http://marco.betschart.name/?p=100
 permalink: /seven-deadly-motives/
 image: /wp-content/uploads/2015/07/killer-256x256.jpg
-categories:
-  - Weisheiten
 tags:
+  - Weisheiten
   - Unternehmertum
 ---
 [© Hans Finzel](http://www.hansfinzel.com/47-seven-deadly-motives-for-being-in-leadership/)

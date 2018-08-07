@@ -7,10 +7,9 @@ layout: post
 guid: http://marco.betschart.name/?p=213
 permalink: /tu-was-du-liebst-und-trau-dich-geld-zu-nehmen/
 image: /wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-256x256.jpg
-categories:
+tags:
   - Bücher
   - Empfehlungen
-tags:
   - Unternehmertum
 ---
 [<img class=" size-medium wp-image-214 alignleft" src="http://blog.marco.betschart.name/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-300x214.jpg" alt="tu-was-du-liebst-und-trau-dich-geld-zu-nehmen" width="300" height="214" srcset="http://dev.marco-betschart.local/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-300x214.jpg 300w, http://dev.marco-betschart.local/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-1024x731.jpg 1024w, http://dev.marco-betschart.local/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-192x137.jpg 192w, http://dev.marco-betschart.local/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen.jpg 1200w" sizes="(max-width: 300px) 100vw, 300px" />](http://blog.marco.betschart.name/wp-content/uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen.jpg){.broken_link}<https://itunes.apple.com/ch/book/tu-was-du-liebst-und-trau/id886731394>

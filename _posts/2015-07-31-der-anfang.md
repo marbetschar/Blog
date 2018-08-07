@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=174
 permalink: /der-anfang/
 image: /wp-content/uploads/2015/07/start-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 > Der Anfang ist die Hälfte des Ganzen. <small>Aristoteles</small>

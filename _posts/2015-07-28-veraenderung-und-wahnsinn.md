@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=113
 permalink: /veraenderung-und-wahnsinn/
 image: /wp-content/uploads/2015/07/owl1-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 > Wahnsinn ist es, auf Veränderungen zu hoffen, ohne etwas zu verändern.

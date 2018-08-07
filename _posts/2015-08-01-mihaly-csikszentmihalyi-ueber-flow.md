@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=250
 permalink: /mihaly-csikszentmihalyi-ueber-flow/
 image: /wp-content/uploads/2015/08/mihalycsikszentmihalyi-256x256.jpg
-categories:
+tags:
   - Empfehlungen
   - Videos
 ---

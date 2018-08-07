@@ -7,10 +7,9 @@ layout: post
 guid: http://marco.betschart.name/?p=148
 permalink: /leadership-answer-man/
 image: /wp-content/uploads/2015/07/leadership-answer-man.jpeg
-categories:
+tags:
   - Empfehlungen
   - Podcasts
-tags:
   - Unternehmertum
 ---
 <https://itunes.apple.com/us/podcast/leadership-answerman-for-leaders/id660802149>

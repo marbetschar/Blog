@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=278
 permalink: /start-moving/
 image: /wp-content/uploads/2015/07/owl1-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 >  Start moving and feelings will come

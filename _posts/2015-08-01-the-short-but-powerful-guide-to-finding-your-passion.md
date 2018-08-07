@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=227
 permalink: /the-short-but-powerful-guide-to-finding-your-passion/
 image: /wp-content/uploads/2015/07/flamme-256x256.jpg
-categories:
+tags:
   - Empfehlungen
 ---
 [© Leo Babauta](http://zenhabits.net/the-short-but-powerful-guide-to-finding-your-passion/)

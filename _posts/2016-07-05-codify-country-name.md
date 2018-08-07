@@ -1,13 +1,13 @@
 ---
 title: Codify country name
 date: 2016-07-05 12:50:54 +0000
-description: Java Snippet to codify country names to their ISO country code and vice
+description: Java snippet to codify country names to their ISO country code and vice
   versa.
 author: Marco Betschart
 layout: post
 permalink: "/codify-country-name/"
 image: "/wp-content/uploads/2015/12/code-1084923-256x256.png"
-categories:
+tags:
 - Java
 
 ---

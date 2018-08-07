@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=239
 permalink: /liebe-was-du-tust/
 image: /wp-content/uploads/2015/08/freiheit-256x256.jpg
-categories:
+tags:
   - Empfehlungen
 ---
 [© Karin Wess](http://karinwess.com/wie-finde-ich-meine-leidenschaft/)

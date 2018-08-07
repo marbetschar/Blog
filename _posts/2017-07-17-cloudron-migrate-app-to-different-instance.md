@@ -6,8 +6,6 @@ author: Marco Betschart
 layout: post
 guid: https://marco.betschart.name/?p=729
 permalink: /cloudron-migrate-app-to-different-instance/
-categories:
-  - Technologie
 tags:
   - Cloudron
   - Linux

@@ -7,9 +7,8 @@ layout: post
 guid: http://marco.betschart.name/?p=163
 permalink: /symptoms-of-a-heart-is-growing-cold/
 image: /wp-content/uploads/2015/07/ThePowerOfPassionHeart-e1438111662908-256x256.jpg
-categories:
-  - Weisheiten
 tags:
+  - Weisheiten
   - Unternehmertum
 ---
 &nbsp;

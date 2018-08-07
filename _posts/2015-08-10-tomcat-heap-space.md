@@ -7,8 +7,6 @@ layout: post
 guid: http://marco.betschart.name/?p=379
 permalink: /tomcat-heap-space/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
-  - Technologie
 tags:
   - Java
   - Tomcat

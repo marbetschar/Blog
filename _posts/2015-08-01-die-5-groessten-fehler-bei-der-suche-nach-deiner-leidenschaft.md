@@ -7,7 +7,7 @@ layout: post
 guid: http://marco.betschart.name/?p=245
 permalink: /die-5-groessten-fehler-bei-der-suche-nach-deiner-leidenschaft/
 image: /wp-content/uploads/2015/08/rutschig-256x256.jpg
-categories:
+tags:
   - Weisheiten
 ---
 © [© Anil Zengin](http://www.gedankenpower.com/wie-finde-ich-heraus-was-ich-wirklich-will/)

@@ -7,9 +7,8 @@ layout: post
 guid: http://marco.betschart.name/?p=124
 permalink: /moudis-lecker-garten/
 image: /wp-content/uploads/2015/07/moudis-256x256.jpg
-categories:
-  - Lesezeichen
 tags:
+  - Lesezeichen
   - Genuss
 ---
 Lecker. Frisch. Authentisch. Gesund. Wir interpretieren die libanesische Küche neu. Anders. Wie wir es mögen. Unsere 47 Mezzesorten sind ausnahmslos selbst zubereitet. Ebenso ist jede Schale, jeder Löffel und natürlich unsere Zutaten persönlich ausgesucht und zusammengestellt.

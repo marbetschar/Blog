@@ -13,7 +13,7 @@ geo_longitude:
 geo_public:
   - "1"
 image: /wp-content/uploads/2015/08/top-ten-mistakes-leaders-make-256x256.jpg
-categories:
+tags:
   - Bücher
   - Lesezeichen
   - Wunschzettel

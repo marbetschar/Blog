@@ -7,8 +7,6 @@ layout: post
 guid: http://marco.betschart.name/?p=384
 permalink: /swift-eureka-contactrow/
 image: /wp-content/uploads/2015/12/code-1084923-256x256.png
-categories:
-  - Technologie
 tags:
   - Swift
 ---
