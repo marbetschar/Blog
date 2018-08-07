@@ -35,7 +35,7 @@ pages:
   only:
     - gh-pages
   script:
-    - rm -rvf .*
+    - rm -rf .git
   artifacts:
     paths:
-      - ./*
+      - .
