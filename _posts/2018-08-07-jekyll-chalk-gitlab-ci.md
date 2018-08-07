@@ -10,7 +10,6 @@ tags:
 - GitLab
 - CI / CD
 thumb_image: uploads/2018/08/jekyll-gitlab-continous-integration.jpg
-
 ---
 {% include image.html path="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" alt="Jekyll, Chalk & GitLab CI / CD" %}
 
