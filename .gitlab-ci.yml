@@ -15,6 +15,10 @@ before_script:
   - ssh-add <(echo "$GIT_SSH_PRIV_KEY" | base64 --decode)
   - git config --global user.email "ci@gitlab.com"
   - git config --global user.name "GitLab.com CI"
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
+  - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
 
 compile:
   stage: "build"
