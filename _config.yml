@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: dark # Or use light
-name: Marco Betschart's Blog
+name: Marco Betschart
 description: 'digital native && nerdpreneur'
 paginate: 25
 url: https://blog.marco.betschart.name
