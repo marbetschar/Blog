@@ -2,7 +2,11 @@
 title: Forestry
 date: 2018-08-07 17:21:56 +0000
 permalink: forestry
-tags: []
+tags:
+- forestry
+- cms
+- jekyll
+- static site generator
 
 ---
 Es bleibt die Frage ob das hier gut geht!?
