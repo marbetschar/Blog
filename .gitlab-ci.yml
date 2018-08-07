@@ -35,7 +35,7 @@ pages:
   only:
     - gh-pages
   script:
-    - echo 'Nothing to do...'
+    - rm -rvf .*
   artifacts:
     paths:
       - ./*
