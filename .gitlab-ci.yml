@@ -1,12 +1,22 @@
 image: ruby:2.3
 
+# UTF-8 support for server
+before_script:
+  - apt-get update >/dev/null
+  - apt-get install -y locales >/dev/null
+  - echo "en_US UTF-8" > /etc/locale.gen
+  - locale-gen en_US.UTF-8
+  - export LANG=en_US.UTF-8
+  - export LANGUAGE=en_US:en
+  - export LC_ALL=en_US.UTF-8
+  - bundle install --jobs $(nproc) --path=/cache/bundler
+
 compile:
   stage: "build"
   only:
     - marbetschar
   script:
-    - apt-get update >/dev/null
-    - curl -sL https://deb.nodesource.com/setup_7.x | bash -
+    - curl -sL https://deb.nodesource.com/setup_8.x | bash -
     - apt-get install -y nodejs >/dev/null
     - bin/setup
     - bin/deploy
