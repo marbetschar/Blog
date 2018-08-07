@@ -9,7 +9,6 @@ tags:
 - Jekyll
 - GitLab
 - CI / CD
-thumb_image: "/wp-content/jekyll-gitlab-continous-integration.jpg"
 image: "/assets/uploads/jekyll-gitlab-continous-integration.jpg"
 
 ---
