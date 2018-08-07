@@ -12,7 +12,7 @@ before_script:
 # Configure Git to allow push
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
   - eval $(ssh-agent -s)
-  - ssh-add <(echo "$GIT_SSH_PRIV_KEY")
+  - sshpass -p "" ssh-add <(echo "$GIT_SSH_PRIV_KEY")
   - git config --global user.email "ci@gitlab.com"
   - git config --global user.name "GitLab.com CI"
 
