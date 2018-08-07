@@ -1,9 +1,9 @@
 # Mandatory settings
 
 blog_theme: dark # Or use light
-name: Marco Betschart
+name: Marco Betschart's Blog
 paginate: 25
-url: http://blog.marco.betschart.name
+url: https://blog.marco.betschart.name
 
 
 # Optional settings
@@ -11,27 +11,27 @@ url: http://blog.marco.betschart.name
 about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
 baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
 discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
+ga_analytics: UA-121929115-2 # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
-rss_enabled: true # Change to false if not
+rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
+  facebook: marbetschar # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: # Add your GitHub handle
+  github: marbetschar # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
-  twitter: # Add your Twitter handle
+  twitter: marbetschar # Add your Twitter handle
   email: # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
-  gitlab: # Add your GitLab handle
+  gitlab: marbetschar # Add your GitLab handle
   youtube: # Add your Youtube handle
   twitch: # Add your Twitch handle
   discord: # Add you Discord server invitation ID
   tumblr: # Add your Tumblr handle
   bitbucket: # Add your Bitbucket handle
-  docker: # Add your Docker Hub handle
+  docker: marbetschar # Add your Docker Hub handle
   instagram: # Add your Instagram handle
   keybase: # Add your Keybase handle
   medium: # Add your Medium handle
@@ -80,4 +80,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 paginate_path: /posts/page/:num/
-permalink: posts/:slug
+permalink: posts/:slug.html
