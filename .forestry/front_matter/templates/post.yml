@@ -26,3 +26,4 @@ fields:
   label: Tags
 pages:
 - _posts/2018-08-07-forestry.md
+- _posts/jekyll-chalk-gitlab-ci.md
