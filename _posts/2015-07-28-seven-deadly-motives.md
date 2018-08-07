@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=100
 permalink: /seven-deadly-motives/
-thumb_image: /wp-content/uploads/2015/07/killer-256x256.jpg
+thumb_image: uploads/2015/07/killer-256x256.jpg
 tags:
   - Weisheiten
   - Unternehmertum

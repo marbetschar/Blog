@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=120
 permalink: /spass-bei-der-arbeit/
-thumb_image: /wp-content/uploads/2015/07/papagei-256x256.jpg
+thumb_image: uploads/2015/07/papagei-256x256.jpg
 tags:
   - Idiotie
 ---

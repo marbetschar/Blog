@@ -7,7 +7,7 @@ description: Ein Shortcode für das fantastische Code Snippets Plugin um Snippet
 layout: post
 guid: http://marco.betschart.name/?p=284
 permalink: /code-snippets-shortcode/
-thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923-256x256.png
 tags:
   - PHP
   - WordPress

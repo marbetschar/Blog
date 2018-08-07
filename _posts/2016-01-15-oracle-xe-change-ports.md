@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=414
 permalink: /oracle-xe-change-ports/
-thumb_image: /wp-content/uploads/2016/01/server-90389_1920-256x256.jpg
+thumb_image: uploads/2016/01/server-90389_1920-256x256.jpg
 tags:
   - Oracle
   - SQL

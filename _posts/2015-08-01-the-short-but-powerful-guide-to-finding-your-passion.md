@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=227
 permalink: /the-short-but-powerful-guide-to-finding-your-passion/
-thumb_image: /wp-content/uploads/2015/07/flamme-256x256.jpg
+thumb_image: uploads/2015/07/flamme-256x256.jpg
 tags:
   - Empfehlungen
 ---

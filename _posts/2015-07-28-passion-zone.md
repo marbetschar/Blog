@@ -6,14 +6,14 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=96
 permalink: /passion-zone/
-thumb_image: /wp-content/uploads/2015/07/flamme-256x256.jpg
+thumb_image: uploads/2015/07/flamme-256x256.jpg
 tags:
   - Empfehlungen
   - Unternehmertum
 ---
 [© Hans Finzel](http://www.hansfinzel.com/passion-zone/){.broken_link}
 
-<img class=" size-medium wp-image-97 alignleft" src="http://blog.marco.betschart.name/wp-content/uploads/2015/07/RegainPassion-300x205.png" alt="RegainPassion" width="300" height="205" srcset="http://dev.marco-betschart.local/wp-content/uploads/2015/07/RegainPassion-300x205.png 300w, http://dev.marco-betschart.local/wp-content/uploads/2015/07/RegainPassion-192x131.png 192w, http://dev.marco-betschart.local/wp-content/uploads/2015/07/RegainPassion.png 576w" sizes="(max-width: 300px) 100vw, 300px" />Here are some great tips for getting back into the passion zone.  I suggest you print out this page and then use a highlighter to highlight things on this list that you would like to undertake.  Then go to the instructions at the bottom of the page.
+<img class=" size-medium wp-image-97 alignleft" src="http://blog.marco.betschart.nameuploads/2015/07/RegainPassion-300x205.png" alt="RegainPassion" width="300" height="205" srcset="http://dev.marco-betschart.localuploads/2015/07/RegainPassion-300x205.png 300w, http://dev.marco-betschart.localuploads/2015/07/RegainPassion-192x131.png 192w, http://dev.marco-betschart.localuploads/2015/07/RegainPassion.png 576w" sizes="(max-width: 300px) 100vw, 300px" />Here are some great tips for getting back into the passion zone.  I suggest you print out this page and then use a highlighter to highlight things on this list that you would like to undertake.  Then go to the instructions at the bottom of the page.
 
   * Get around people who are passionate. Ask for their advice. Tell them your story and see what you can learn to help you.
   * Ask your board or your boss to reconfigure your job responsibilities so you are doing what you love.

@@ -7,7 +7,7 @@ description: 'SSL für die gesamte WordPress Webseite - mit nur einem Klick!'
 layout: post
 guid: http://marco.betschart.name/?p=411
 permalink: /really-simple-ssl/
-thumb_image: /wp-content/uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: uploads/2015/12/wordpress-589121-256x256.jpg
 tags:
   - Plugin
   - WordPress

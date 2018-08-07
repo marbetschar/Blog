@@ -4,7 +4,7 @@ date: 2017-04-25T20:10:52+00:00
 description: "I've been looking for a way to search a subdirectory in my main bundle recursively - the following simple Swift extension does the trick."
 layout: post
 permalink: /get-all-resource-paths-in-bundle-recursively/
-thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923-256x256.png
 tags:
   - Swift
 ---

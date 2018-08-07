@@ -6,13 +6,13 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=384
 permalink: /swift-eureka-contactrow/
-thumb_image: /wp-content/uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923-256x256.png
 tags:
   - Swift
 ---
 A custom row for the [elegant iOS form builder in Swift 2 called Eureka](https://github.com/xmartlabs/Eureka):
 
-<a href="http://blog.marco.betschart.name/wp-content/uploads/2015/12/ContactRow.gif" rel="attachment wp-att-398" class="broken_link"><img class="aligncenter wp-image-398 size-full" src="http://blog.marco.betschart.name/wp-content/uploads/2015/12/ContactRow.gif" alt="ContactRow" width="375" /></a>
+<a href="http://blog.marco.betschart.nameuploads/2015/12/ContactRow.gif" rel="attachment wp-att-398" class="broken_link"><img class="aligncenter wp-image-398 size-full" src="http://blog.marco.betschart.nameuploads/2015/12/ContactRow.gif" alt="ContactRow" width="375" /></a>
 
 Select an existing contact from the iOS AddressBook using the new iOS 9 CNContact API &#8211; [request for integration pending](https://github.com/xmartlabs/Eureka/issues/127).
 
