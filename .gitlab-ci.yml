@@ -1,8 +1,7 @@
 image: ruby:2.3
 
 compile:
-  stage:
-    - build
+  stage: "build"
   only:
     - marbetschar
   script:
@@ -13,8 +12,7 @@ compile:
     - bin/deploy
 
 pages:
-  stage:
-    - deploy
+  stage: "deploy"
   only:
     - gh-pages
   script:
