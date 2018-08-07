@@ -13,8 +13,8 @@ fields:
   name: layout
   default: post
 - type: file
-  name: image
-  label: Image
+  name: thumb_image
+  label: Thumb Image
   description: Image to be shown as embed in social media
 - type: text
   label: Title
