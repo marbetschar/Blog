@@ -6,9 +6,9 @@ compile:
   only:
     - marbetschar
   script:
-  	- apt-get update >/dev/null
-  	- curl -sL https://deb.nodesource.com/setup_7.x | bash -
-  	- apt-get install -y nodejs >/dev/null
+    - apt-get update >/dev/null
+    - curl -sL https://deb.nodesource.com/setup_7.x | bash -
+    - apt-get install -y nodejs >/dev/null
     - bin/setup
     - bin/deploy
 
