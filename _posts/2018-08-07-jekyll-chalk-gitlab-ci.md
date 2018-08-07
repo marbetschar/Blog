@@ -1,5 +1,5 @@
 ---
-title: Jekyll, Chalk & GitLab CI
+title: Jekyll, Chalk & GitLab CI / CD
 layout: post
 date: 2018-08-07 19:42:30 +0200
 description: How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI
@@ -8,7 +8,7 @@ permalink: "/jekyll-chalk-gitlab-ci/"
 tags:
 - Jekyll
 - GitLab
-- CI
+- CI / CD
 
 ---
 This blog is now powered by Jekyll, a static site generator. As theme, I'm using the fabulous [Chalk theme from Nielsen Ramon](https://github.com/nielsenramon/chalk). Chalk is a high quality, completely customizable, performant and 100% free Jekyll blog theme.
@@ -16,6 +16,8 @@ This blog is now powered by Jekyll, a static site generator. As theme, I'm using
 And all of this is based upon GitLab.com - my new home for all development projects.
 
 Since Chalk was originally developed for GitHub Pages, we had to add some .gitlab-ci.yml magic to build the blog automatically upon every commit. Here it is; the final GitLab.com CI script:
+
+{% highlight yml %}
 
     image: ruby:2.3
     
@@ -62,3 +64,5 @@ Since Chalk was originally developed for GitHub Pages, we had to add some .gitla
       artifacts:
         paths:
           - public
+
+{% endhighlight %}
