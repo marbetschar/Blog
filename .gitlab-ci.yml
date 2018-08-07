@@ -1,7 +1,7 @@
 image: ruby:2.3
 
-# UTF-8 support for server
 before_script:
+# UTF-8 support for server
   - apt-get update >/dev/null
   - apt-get install -y locales >/dev/null
   - echo "en_US UTF-8" > /etc/locale.gen
@@ -9,6 +9,12 @@ before_script:
   - export LANG=en_US.UTF-8
   - export LANGUAGE=en_US:en
   - export LC_ALL=en_US.UTF-8
+# Configure Git to allow push
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$GIT_SSH_PRIV_KEY")
+  - git config --global user.email "ci@gitlab.com"
+  - git config --global user.name "GitLab.com CI"
 
 compile:
   stage: "build"
@@ -17,8 +23,8 @@ compile:
   script:
     - curl -sL https://deb.nodesource.com/setup_8.x | bash -
     - apt-get install -y nodejs >/dev/null
-    - bin/setup
-    - bin/deploy
+    - npm run setup
+    - npm run publish
 
 pages:
   stage: "deploy"
