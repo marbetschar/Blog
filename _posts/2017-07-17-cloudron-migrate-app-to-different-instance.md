@@ -2,12 +2,13 @@
 title: 'Cloudron: Migrate app to different instance'
 date: 2017-07-17 19:18:04 +0000
 layout: post
-description: "Howto migrate apps from one Cloudron to another."
+description: Howto migrate apps from one Cloudron to another.
 permalink: "/cloudron-migrate-app-to-different-instance/"
 tags:
 - Cloudron
 - Linux
 thumb_image: uploads/2018/08/cloudron-docker-container.jpg
+
 ---
 {% include image.html path="uploads/2018/08/cloudron-docker-container.jpg" path-detail="uploads/2018/08/cloudron-docker-container.jpg" alt="Cloudron: Migrate app to different instance" %}
 
@@ -41,4 +42,7 @@ It depends on your backup solution where your newly created backup is stored. Us
     $: cloudron logout
     {% endhighlight %}
 
-[© Cloudron.io](https://git.cloudron.io/cloudron/box/commit/04d6f94108cbb9b17bb831912c0c47881a177d98)
+#### References
+
+* [Cloudron.io](https://git.cloudron.io/cloudron/box/commit/04d6f94108cbb9b17bb831912c0c47881a177d98)
+* Photo by [frank mckenna](https://unsplash.com/photos/tjX_sniNzgQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/container?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
