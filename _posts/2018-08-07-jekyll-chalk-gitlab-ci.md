@@ -10,6 +10,7 @@ tags:
 - GitLab
 - CI / CD
 thumb_image: uploads/2018/08/jekyll-gitlab-continous-integration.jpg
+
 ---
 {% include image.html path="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" path-detail="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" alt="Jekyll, Chalk & GitLab CI / CD" %}
 
@@ -20,7 +21,7 @@ And all of this is based upon [GitLab.com](GitLab.com) - my new home for all dev
 Since Chalk was originally developed for [GitHub Pages](https://pages.github.com), we had to add some `.gitlab-ci.yml` magic to build the blog automatically upon every commit - and deploy it using [GitLab Pages](https://about.gitlab.com/features/pages/). Here it is; the final GitLab.com CI / CD script:
 
     {% highlight yml %}
-    thumb_image: ruby:2.3
+    image: ruby:2.3
     
     before_script:
     # Configure UTF-8 support for server
@@ -66,3 +67,9 @@ Since Chalk was originally developed for [GitHub Pages](https://pages.github.com
         paths:
           - public
     {% endhighlight %}
+
+#### Sources
+
+* [CI: How to set UTF-8 in the server?](https://gitlab.com/gitlab-org/gitlab-ce/issues/14983)
+* [GitBot – automating boring Git operations with CI](https://about.gitlab.com/2017/11/02/automating-boring-git-operations-gitlab-ci/)
+* [Move all files except one](https://stackoverflow.com/questions/670460/move-all-files-except-one)
