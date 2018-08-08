@@ -11,17 +11,18 @@ tags:
 - Java
 - Logrotate
 - Linux
+- DevOps
 
 ---
 {% include image.html path="uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" path-detail="uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" alt="Apache Tomcat Logrotate catalina.out" %}
 
 Apache Tomcat logs everything into `catalina.out`: `System.out`, `System.err` as well as regular logs used by logging facilities such as `log4j`.
 
-Additionally the Tomcat also logs into `catalina.YYYY-MM-dd.log` files. In contrast to the catalina.out those files do only contain logs from logging facilities - but not from `System.out` or `System.err`.
+Tomcat also logs into `catalina.YYYY-MM-dd.log` files. In contrast to `catalina.out` those files do only contain logs from logging facilities - not from `System.out` or `System.err`.
 
 ### Disable `catalina.YYYY-MM-dd.log`
 
-Developers should not use `System.out` and `System.err` in production - but in reality this is not always the case. To ensure we do not miss any logs we first avoid doubling the log information by deactivating `catalina.YYYY-MM-dd.log` in `conf/logging.properties`; Just comment the following lines an restart Apache Tomcat:
+Developers **should not** use `System.out` and `System.err` in production - but in reality this is not always the case. To ensure we don't miss any logs while keep disk usage as low as possible we just rely on `catalina.out` and deactivate `catalina.YYYY-MM-dd.log`. For this comment the following lines in `conf/logging.properties` and restart Apache Tomcat:
 
     {% highlight bash %}
     # 1catalina.org.apache.juli.AsyncFileHandler.level = INFO
@@ -31,7 +32,7 @@ Developers should not use `System.out` and `System.err` in production - but in r
 
 ### Rotate `catalina.out`
 
-Every output is logged to `catalina.out`. So it can grow fairly big. To avoid ending up with a huge file, we simply rotate it by using the Linux `logrotate` tool. For this, add the following configuration in `/etc/logrotate.d/apache-tomcat`:
+Every output is logged to `catalina.out`. So it can grow fairly big. To avoid ending up with one single huge file, we simply rotate it by using the Linux `logrotate` tool. For this, add the following configuration in `/etc/logrotate.d/apache-tomcat`:
 
     {% highlight bash %}
     /opt/apache-tomcat/logs/catalina.out {
