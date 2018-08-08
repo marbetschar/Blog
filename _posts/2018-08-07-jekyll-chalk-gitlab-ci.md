@@ -68,8 +68,9 @@ Since Chalk was originally developed for [GitHub Pages](https://pages.github.com
           - public
     {% endhighlight %}
 
-#### Sources
+#### References
 
 * [CI: How to set UTF-8 in the server?](https://gitlab.com/gitlab-org/gitlab-ce/issues/14983)
 * [GitBot – automating boring Git operations with CI](https://about.gitlab.com/2017/11/02/automating-boring-git-operations-gitlab-ci/)
 * [Move all files except one](https://stackoverflow.com/questions/670460/move-all-files-except-one)
+* Photo by [Mike Kononov](https://unsplash.com/photos/lFv0V3_2H6s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/moskau-office-building?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
