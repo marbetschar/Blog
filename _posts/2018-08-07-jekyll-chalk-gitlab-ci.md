@@ -2,8 +2,6 @@
 title: Jekyll, Chalk & GitLab CI / CD
 layout: post
 date: 2018-08-07 17:42:30 +0000
-description: How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI
-  / CD.
 permalink: "/jekyll-chalk-gitlab-ci/"
 tags:
 - Jekyll
@@ -12,7 +10,7 @@ tags:
 thumb_image: uploads/2018/08/jekyll-gitlab-continous-integration.jpg
 
 ---
-{% include image.html path="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" path-detail="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" alt="Jekyll, Chalk & GitLab CI / CD" %}
+{% include image.html path="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" path-detail="uploads/2018/08/jekyll-gitlab-continous-integration.jpg" alt="Jekyll, Chalk & GitLab CI / CD" %} How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI / CD.
 
 This blog is now powered by [Jekyll](https://jekyllrb.com), a static site generator. As theme, I'm using the fabulous [Chalk theme from Nielsen Ramon](https://github.com/nielsenramon/chalk). Chalk is a high quality, completely customizable, performant and 100% free Jekyll blog theme.
 
