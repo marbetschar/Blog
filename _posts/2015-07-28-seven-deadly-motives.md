@@ -4,13 +4,14 @@ title: Seven Deadly Motives
 date: 2015-07-28T22:00:07+00:00
 author: Marco Betschart
 layout: post
-guid: http://marco.betschart.name/?p=100
 permalink: /seven-deadly-motives/
-thumb_image: uploads/2015/07/killer-256x256.jpg
+thumb_image: uploads/2015/07/killer.jpg
 tags:
   - Weisheiten
   - Unternehmertum
 ---
+{% include image.html path="/assets/uploads/2015/07/killer.jpg" path-detail="/assets/uploads/2015/07/killer.jpg" alt="Seven Deadly Motives" %}
+
 [© Hans Finzel](http://www.hansfinzel.com/47-seven-deadly-motives-for-being-in-leadership/)
 
   * Power

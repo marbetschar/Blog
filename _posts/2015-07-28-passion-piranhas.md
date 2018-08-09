@@ -4,13 +4,14 @@ title: Passion Piranhas
 date: 2015-07-28T21:05:40+00:00
 author: Marco Betschart
 layout: post
-guid: http://marco.betschart.name/?p=69
 permalink: /passion-piranhas/
-thumb_image: uploads/2015/07/piranhas-256x256.jpg
+thumb_image: uploads/2015/07/piranhas.jpg
 tags:
   - Empfehlungen
 ---
-[© Hans Finzel](http://www.hansfinzel.com/piranhas/){.broken_link}
+{% include image.html path="/assets/uploads/2015/07/piranhas.jpg" path-detail="/assets/uploads/2015/07/piranhas.jpg" alt="Passion Piranhas" %}
+
+[© Hans Finzel](http://www.hansfinzel.com/piranhas/)
 
 Let’s talk about guarding. Here are some of the big passion piranhas that we need to guard against. Time and again the things on this list swim out there and suck the life out of us as we are robbed of all passion:
 
