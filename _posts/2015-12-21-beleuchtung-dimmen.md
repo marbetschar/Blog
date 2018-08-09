@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=342
 permalink: /beleuchtung-dimmen/
-thumb_image: uploads/2015/12/woman-653892_1920-256x256.jpg
+thumb_image: uploads/2015/12/woman-653892_1920.jpg
 tags:
   - Lifehacks
 ---

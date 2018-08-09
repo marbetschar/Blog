@@ -12,7 +12,7 @@ geo_longitude:
   - "8.5546044263549"
 geo_public:
   - "1"
-thumb_image: uploads/2015/08/top-ten-mistakes-leaders-make-256x256.jpg
+thumb_image: uploads/2015/08/top-ten-mistakes-leaders-make.jpg
 tags:
   - Bücher
   - Lesezeichen

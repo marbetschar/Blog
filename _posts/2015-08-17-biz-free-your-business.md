@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=257
 permalink: /biz-free-your-business/
-thumb_image: uploads/2015/08/free-your-business-256x256.jpg
+thumb_image: uploads/2015/08/free-your-business.jpg
 tags:
   - Apps
   - Empfehlungen

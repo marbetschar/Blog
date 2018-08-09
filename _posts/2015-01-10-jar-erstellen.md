@@ -4,7 +4,7 @@ date: 2015-01-10T01:42:23+00:00
 description: Eine kurze Anleitung, wie eine JAR (Java ARchive) Datei aus Java Source Code generiert wird.
 layout: post
 permalink: /jar-erstellen/
-thumb_image: uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923.png
 tags:
   - Java
 ---

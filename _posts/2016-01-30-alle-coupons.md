@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=457
 permalink: /alle-coupons/
-thumb_image: uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: uploads/2015/12/wordpress-589121.jpg
 tags:
   - PHP
   - WooCommerce

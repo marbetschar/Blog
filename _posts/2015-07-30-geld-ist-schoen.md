@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=177
 permalink: /geld-ist-schoen/
-thumb_image: uploads/2015/07/geld-256x256.jpg
+thumb_image: uploads/2015/07/geld.jpg
 tags:
   - Bücher
   - Empfehlungen

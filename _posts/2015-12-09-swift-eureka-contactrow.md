@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=384
 permalink: /swift-eureka-contactrow/
-thumb_image: uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923.png
 tags:
   - Swift
 ---

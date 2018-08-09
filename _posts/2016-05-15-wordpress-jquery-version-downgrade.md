@@ -14,7 +14,7 @@ geo_public:
   - "1"
 geo_address:
   - München, Germany
-thumb_image: uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: uploads/2015/12/wordpress-589121.jpg
 tags:
   - WordPress
 ---

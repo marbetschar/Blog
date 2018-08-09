@@ -7,7 +7,7 @@ description: CSS Code in Dateien auslagern und anhand von media queries anwenden
 layout: post
 guid: http://marco.betschart.name/?p=403
 permalink: /import-media-query/
-thumb_image: uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923.png
 tags:
   - CSS
 ---

@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: https://marco.betschart.name/?p=700
 permalink: /hoer-auf-deine-leidenschaft-zu-suchen/
-thumb_image: uploads/2016/12/Screw-Finding-Your-Passion-256x256.jpg
+thumb_image: uploads/2016/12/Screw-Finding-Your-Passion.jpg
 tags:
   - Empfehlungen
   - Weisheiten

@@ -12,7 +12,7 @@ geo_longitude:
   - "8.5409104951592"
 geo_public:
   - "1"
-thumb_image: uploads/2015/07/schach-256x256.jpg
+thumb_image: uploads/2015/07/schach.jpg
 tags:
   - Bücher
   - Empfehlungen

@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=278
 permalink: /start-moving/
-thumb_image: uploads/2015/07/owl1-256x256.jpg
+thumb_image: uploads/2015/07/owl1.jpg
 tags:
   - Weisheiten
 ---

@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: https://marco.betschart.name/?p=541
 permalink: /woocommerce-email-adresse-bestaetigen/
-thumb_image: uploads/2015/12/wordpress-589121-256x256.jpg
+thumb_image: uploads/2015/12/wordpress-589121.jpg
 tags:
   - PHP
   - WooCommerce

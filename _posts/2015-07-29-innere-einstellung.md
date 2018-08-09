@@ -12,7 +12,7 @@ geo_longitude:
   - "8.5237485547271"
 geo_public:
   - "1"
-thumb_image: uploads/2015/07/owl1-256x256.jpg
+thumb_image: uploads/2015/07/owl1.jpg
 tags:
   - Weisheiten
 ---

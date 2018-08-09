@@ -12,7 +12,7 @@ geo_longitude:
   - "8.5566215202735"
 geo_public:
   - "1"
-thumb_image: uploads/2015/07/tu-was-du-liebst-256x256.jpg
+thumb_image: uploads/2015/07/tu-was-du-liebst.jpg
 tags:
   - Bücher
   - Empfehlungen

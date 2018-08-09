@@ -4,7 +4,7 @@ layout: post
 date: 2015-01-02T01:38:07+00:00
 description: Die Unterschiede der Java Archive JAR, WAR und EAR kurz und knackig zusammengefasst.
 permalink: /jar-war-ear/
-thumb_image: uploads/2015/12/code-1084923-256x256.png
+thumb_image: uploads/2015/12/code-1084923.png
 tags:
   - Java
 ---

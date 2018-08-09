@@ -6,7 +6,7 @@ author: Marco Betschart
 layout: post
 guid: http://marco.betschart.name/?p=213
 permalink: /tu-was-du-liebst-und-trau-dich-geld-zu-nehmen/
-thumb_image: uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen-256x256.jpg
+thumb_image: uploads/2015/08/tu-was-du-liebst-und-trau-dich-geld-zu-nehmen.jpg
 tags:
   - Bücher
   - Empfehlungen
