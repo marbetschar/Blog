@@ -8,13 +8,13 @@ description: "lover of the never ending journey of exploration. self growth and 
   {% for post in paginator.posts %}
     <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
       <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+        {% if post.thumb_image %}
+          <img src="{% asset '{{ post.thumb_image }}' @path %}" alt="{{ post.description }}" />
+        {% endif %}
         <h5>
           {{ post.title }}
           {% include svg-icon.html icon="arrow-right" %}
         </h5>
-        {% if post.thumb_image %}
-          <img src="{% asset '{{ post.thumb_image }}' @path %}" alt="{{ post.description }}" />
-        {% endif %}
       </a>
       <p>
         {% if post.description %}
