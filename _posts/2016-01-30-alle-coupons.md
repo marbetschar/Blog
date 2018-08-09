@@ -13,7 +13,7 @@ tags:
 ---
 Um alle Coupons aus WooCommerce auszulesen:
 
-<div class="snippetcpt-wrap" id="snippet-503" data-id="503" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=503&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=503" data-fullscreen="http://dev.marco-betschart.local/code-snippets/all-coupons/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-503" data-id="503" data-edit="/wp-admin/post.php?post=503&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=503" data-fullscreen="/code-snippets/all-coupons/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="All coupons">$args = array(
   'posts_per_page'    =&gt; -1,
   'orderby'            =&gt; 'title',

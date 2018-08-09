@@ -13,7 +13,7 @@ tags:
 ---
 Um alle Benutzerrollen von WordPress auszulesen:
 
-<div class="snippetcpt-wrap" id="snippet-502" data-id="502" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=502&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=502" data-fullscreen="http://dev.marco-betschart.local/code-snippets/all-user-roles/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-502" data-id="502" data-edit="/wp-admin/post.php?post=502&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=502" data-fullscreen="/code-snippets/all-user-roles/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="All user roles">$editable_roles = get_editable_roles();</pre>
 </div>
 

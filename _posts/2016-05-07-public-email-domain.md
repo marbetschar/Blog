@@ -19,7 +19,7 @@ Check if a email string is an email address of a public email provider by just u
 </p>
 
 <p style="text-align: justify;">
-  <div class="snippetcpt-wrap" id="snippet-595" data-id="595" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=595&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=595" data-fullscreen="http://dev.marco-betschart.local/code-snippets/public-email-domain/?full-screen=1">
+  <div class="snippetcpt-wrap" id="snippet-595" data-id="595" data-edit="/wp-admin/post.php?post=595&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=595" data-fullscreen="/code-snippets/public-email-domain/?full-screen=1">
     <pre class="prettyprint linenums lang-swift" title="Public Email Domain">enum PublicEmailDomain: String{
     case Any
     case Aol = "^aol\\.[a-z]{2,5}$"

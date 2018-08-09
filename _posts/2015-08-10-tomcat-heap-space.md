@@ -11,7 +11,7 @@ tags:
   - Java
   - Tomcat
 ---
-<div class="snippetcpt-wrap" id="snippet-495" data-id="495" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=495&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=495" data-fullscreen="http://dev.marco-betschart.local/code-snippets/tomcat-heap-space/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-495" data-id="495" data-edit="/wp-admin/post.php?post=495&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=495" data-fullscreen="/code-snippets/tomcat-heap-space/?full-screen=1">
   <pre class="prettyprint linenums lang-bash" title="Tomcat Heap Space">$~: sudo vi tomcat/bin/setenv.sh
 JAVA_OPTS="-Xms256m -Xmx1024m"</pre>
 </div>

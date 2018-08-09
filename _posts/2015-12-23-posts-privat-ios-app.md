@@ -13,7 +13,7 @@ tags:
 ---
 Die Sichtbarkeit neuer Posts die aus der WordPress App erstellt werden automatisch auf _Privat_ setzen:
 
-<div class="snippetcpt-wrap" id="snippet-486" data-id="486" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=486&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=486" data-fullscreen="http://dev.marco-betschart.local/code-snippets/private-posts-default-admin/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-486" data-id="486" data-edit="/wp-admin/post.php?post=486&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=486" data-fullscreen="/code-snippets/private-posts-default-admin/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="Private Posts by Default - Admin">add_action('post_submitbox_misc_actions',function(){
   global $post;
   

@@ -18,7 +18,7 @@ thumb_image: uploads/2015/12/wordpress-589121-256x256.jpg
 tags:
   - WordPress
 ---
-<div class="snippetcpt-wrap" id="snippet-598" data-id="598" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=598&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=598" data-fullscreen="http://dev.marco-betschart.local/code-snippets/downgrade-jquery/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-598" data-id="598" data-edit="/wp-admin/post.php?post=598&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=598" data-fullscreen="/code-snippets/downgrade-jquery/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="Downgrade jQuery">add_action('init', function(){
     if (!is_admin()) {
         wp_deregister_script('jquery');

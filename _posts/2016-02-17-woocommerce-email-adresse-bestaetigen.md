@@ -14,9 +14,9 @@ tags:
 ---
 Im WooCommerce Checkout Prozess lässt sich ganz einfach ein zusätzliches Feld für die Validierung der eingegebenen E-Mail-Adresse hinzufügen:
 
-<a href="http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm.png" rel="attachment wp-att-546"><img class="alignnone size-full wp-image-546" src="http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm.png" alt="billing_email_confirm" width="812" height="164" srcset="http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm.png 812w, http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm-300x61.png 300w, http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm-768x155.png 768w, http://dev.marco-betschart.localuploads/2016/02/billing_email_confirm-192x39.png 192w" sizes="(max-width: 812px) 100vw, 812px" /></a>
+<a href="uploads/2016/02/billing_email_confirm.png" rel="attachment wp-att-546"><img class="alignnone size-full wp-image-546" src="uploads/2016/02/billing_email_confirm.png" alt="billing_email_confirm" width="812" height="164" srcset="uploads/2016/02/billing_email_confirm.png 812w, uploads/2016/02/billing_email_confirm-300x61.png 300w, uploads/2016/02/billing_email_confirm-768x155.png 768w, uploads/2016/02/billing_email_confirm-192x39.png 192w" sizes="(max-width: 812px) 100vw, 812px" /></a>
 
-<div class="snippetcpt-wrap" id="snippet-540" data-id="540" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=540&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=540" data-fullscreen="http://dev.marco-betschart.local/code-snippets/checkout-email-confirm/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-540" data-id="540" data-edit="/wp-admin/post.php?post=540&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=540" data-fullscreen="/code-snippets/checkout-email-confirm/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="Checkout E-Mail Confirm">add_filter('woocommerce_checkout_fields',function($fields){
     $billing_email_confirm = array(
         'label'            =&gt; 'E-Mail-Adresse best&auml;tigen',

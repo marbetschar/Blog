@@ -16,7 +16,7 @@ A custom row for the [elegant iOS form builder in Swift 2 called Eureka](https:/
 
 Select an existing contact from the iOS AddressBook using the new iOS 9 CNContact API &#8211; [request for integration pending](https://github.com/xmartlabs/Eureka/issues/127).
 
-<div class="snippetcpt-wrap" id="snippet-496" data-id="496" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=496&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=496" data-fullscreen="http://dev.marco-betschart.local/code-snippets/eureka-contactrow/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-496" data-id="496" data-edit="/wp-admin/post.php?post=496&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=496" data-fullscreen="/code-snippets/eureka-contactrow/?full-screen=1">
   <pre class="prettyprint linenums lang-swift" title="Eureka ContactRow">import Foundation
 import Contacts
 import ContactsUI

@@ -15,7 +15,7 @@ tags:
 ---
 Java unterstützt auf einfache Art und Weise die Konvertierung von Zeichensätzen:
 
-<div class="snippetcpt-wrap" id="snippet-564" data-id="564" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=564&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=564" data-fullscreen="http://dev.marco-betschart.local/code-snippets/charset-convert/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-564" data-id="564" data-edit="/wp-admin/post.php?post=564&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=564" data-fullscreen="/code-snippets/charset-convert/?full-screen=1">
   <pre class="prettyprint linenums lang-java" title="Charset Convert">import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
 
@@ -36,7 +36,7 @@ Nähere Angaben zu den unterstützten Zeichensätzen findet sich in der <a href=
 
 Um mit Java die Daten aus einer Oracle Datenbank von ISO-8859-1 in UTF-8 konvertieren kann man folgendermassen vorgehen:
 
-<div class="snippetcpt-wrap" id="snippet-552" data-id="552" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=552&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=552" data-fullscreen="http://dev.marco-betschart.local/code-snippets/oracle-charset-convert/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-552" data-id="552" data-edit="/wp-admin/post.php?post=552&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=552" data-fullscreen="/code-snippets/oracle-charset-convert/?full-screen=1">
   <pre class="prettyprint linenums lang-java" title="Oracle Charset Convert">import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;

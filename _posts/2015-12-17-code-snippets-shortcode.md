@@ -16,7 +16,7 @@ tags:
 
 <del datetime="2016-01-04T12:00:21+00:00">Ein Shortcode für das fantastische <a href="https://de.wordpress.org/plugins/code-snippets/" target="_blank">Code Snippets Plugin</a> um Snippets aus diesem Plugin auch im Frontend darzustellen:</del>
 
-<div class="snippetcpt-wrap" id="snippet-524" data-id="524" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=524&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=524" data-fullscreen="http://dev.marco-betschart.local/code-snippets/code-snippet-shortcode/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-524" data-id="524" data-edit="/wp-admin/post.php?post=524&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=524" data-fullscreen="/code-snippets/code-snippet-shortcode/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="Code Snippet Shortcode">add_shortcode('snippet', function( $atts ){
   if( isset($atts['id']) ){
     $snippet = get_snippet( $atts['id'] );

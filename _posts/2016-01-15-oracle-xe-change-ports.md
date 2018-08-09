@@ -15,7 +15,7 @@ Um die Standartports von Oracle XE zu ändern, einfach folgende Schritte ausfüh
 
   1. Verbindung zu Oracle XE mit SQLPlus aufbauen
   
-    <div class="snippetcpt-wrap" id="snippet-517" data-id="517" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=517&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=517" data-fullscreen="http://dev.marco-betschart.local/code-snippets/sqlplus-connect/?full-screen=1">
+    <div class="snippetcpt-wrap" id="snippet-517" data-id="517" data-edit="/wp-admin/post.php?post=517&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=517" data-fullscreen="/code-snippets/sqlplus-connect/?full-screen=1">
       <pre class="prettyprint linenums lang-bash" title="SQLPlus Connect">$: sqlplus system
 SQL*Plus: Release 11.2.0.2.0 Production on Mo Dez 21 18:59:09 2015
 Copyright (c) 1982, 2014, Oracle.  All rights reserved.
@@ -30,7 +30,7 @@ SQL&gt;</pre>
 
   2. Aktuelle Ports anzeigen
   
-    <div class="snippetcpt-wrap" id="snippet-518" data-id="518" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=518&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=518" data-fullscreen="http://dev.marco-betschart.local/code-snippets/sqlplus-http-ftp-port/?full-screen=1">
+    <div class="snippetcpt-wrap" id="snippet-518" data-id="518" data-edit="/wp-admin/post.php?post=518&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=518" data-fullscreen="/code-snippets/sqlplus-http-ftp-port/?full-screen=1">
       <pre class="prettyprint linenums lang-bash" title="SQLPlus HTTP & FTP Port">SQL&gt; SELECT DBMS_XDB.getHttpPort AS "HTTP-Port"
 ,DBMS_XDB.getFtpPort AS "FTP-Port" FROM dual;
 
@@ -41,7 +41,7 @@ HTTP-Port FTP-Port
 
   3. Ports anpassen
   
-    <div class="snippetcpt-wrap" id="snippet-519" data-id="519" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=519&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=519" data-fullscreen="http://dev.marco-betschart.local/code-snippets/sqlplus-http-ftp-port-anpassen/?full-screen=1">
+    <div class="snippetcpt-wrap" id="snippet-519" data-id="519" data-edit="/wp-admin/post.php?post=519&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=519" data-fullscreen="/code-snippets/sqlplus-http-ftp-port-anpassen/?full-screen=1">
       <pre class="prettyprint linenums lang-bash" title="SQLPlus HTTP & FTP Port anpassen">SQL&gt; BEGIN
   DBMS_XDB.setHttpPort('3030');
   DBMS_XDB.setFtpPort('2100');

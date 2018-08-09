@@ -15,7 +15,7 @@ tags:
 ---
 Um Produkte in WooCommerce direkt aufzurufen, ohne den `/product` Slug in der URL zu haben, kann folgender Schnipsel verwendet werden:
 
-<div class="snippetcpt-wrap" id="snippet-497" data-id="497" data-edit="http://dev.marco-betschart.local/wp-admin/post.php?post=497&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=497" data-fullscreen="http://dev.marco-betschart.local/code-snippets/product-url-wo-type-slug/?full-screen=1">
+<div class="snippetcpt-wrap" id="snippet-497" data-id="497" data-edit="/wp-admin/post.php?post=497&action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=497" data-fullscreen="/code-snippets/product-url-wo-type-slug/?full-screen=1">
   <pre class="prettyprint linenums lang-php" title="Post URL w/o Type Slug">add_filter('post_type_link',function($permalink, $post, $leavename){
     if (!gettype($post) == 'post') {
         return $permalink;
