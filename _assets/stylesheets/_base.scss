@@ -80,6 +80,11 @@ h6 {
   font-size: $base-font-size;
 }
 
+.article-list-item h5,
+.article-header h1 {
+  margin-top:1em;
+}
+
 @include breakpoint(small) {
   h1 {
     font-size: $base-font-size * 1.5;
