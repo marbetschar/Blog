@@ -20,6 +20,9 @@ description: "lover of the never ending journey of exploration. self growth and 
           {{ post.excerpt }}
         {% endif %}
       </p>
+      {% if post.thumb_image %}
+        {% include image.html path="{{ post.thumb_image }}" path-detail="{{ post.thumb_image }}" alt="{{ post.description }}" %}
+      {% endif %}
       <div class="article-list-footer">
         <span class="article-list-date">
           {{ post.date | date: "%B %-d, %Y" }}
