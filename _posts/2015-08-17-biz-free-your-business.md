@@ -11,6 +11,6 @@ tags:
   - Apps
   - Empfehlungen
 ---
-[<img class=" size-full wp-image-259 alignleft" src="http://blog.marco.betschart.nameuploads/2015/08/biz.png" alt="biz" width="184" height="181" />](https://itunes.apple.com/de/app/biz!-free-your-business/id963507034){.broken_link}Den Sprung in ein erfülltes Leben wagen: Die iPhone App von Mandelkind unterstützt Freelancer in ihrer Arbeit, damit arbeiten Spass macht.
+[<img class=" size-full wp-image-259 alignleft" src="http://blog.marco.betschart.name/assets/uploads/2015/08/biz.png" alt="biz" width="184" height="181" />](https://itunes.apple.com/de/app/biz!-free-your-business/id963507034){.broken_link}Den Sprung in ein erfülltes Leben wagen: Die iPhone App von Mandelkind unterstützt Freelancer in ihrer Arbeit, damit arbeiten Spass macht.
 
 <http://mandelkind.biz>

@@ -12,7 +12,7 @@ tags:
 ---
 A custom row for the [elegant iOS form builder in Swift 2 called Eureka](https://github.com/xmartlabs/Eureka):
 
-<a href="http://blog.marco.betschart.nameuploads/2015/12/ContactRow.gif" rel="attachment wp-att-398" class="broken_link"><img class="aligncenter wp-image-398 size-full" src="http://blog.marco.betschart.nameuploads/2015/12/ContactRow.gif" alt="ContactRow" width="375" /></a>
+<a href="http://blog.marco.betschart.name/assets/uploads/2015/12/ContactRow.gif" rel="attachment wp-att-398" class="broken_link"><img class="aligncenter wp-image-398 size-full" src="http://blog.marco.betschart.name/assets/uploads/2015/12/ContactRow.gif" alt="ContactRow" width="375" /></a>
 
 Select an existing contact from the iOS AddressBook using the new iOS 9 CNContact API &#8211; [request for integration pending](https://github.com/xmartlabs/Eureka/issues/127).
 

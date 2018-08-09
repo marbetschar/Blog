@@ -13,7 +13,7 @@ tags:
 ---
 You may already came across the Apple tab limitation for the UITabBarController: You are only allowed to have a maximum of 5 tabs in a UITabBar.
 
-[<img class="alignleft wp-image-671 size-medium" src="/assets/uploads/2016/07/UITabBar-More-Items-169x300.png" alt="UITabBar More Items" width="169" height="300" srcset="/assets/uploads/2016/07/UITabBar-More-Items-169x300.png 169w, uploads/2016/07/UITabBar-More-Items-576x1024.png 576w, uploads/2016/07/UITabBar-More-Items-108x192.png 108w, uploads/2016/07/UITabBar-More-Items.png 750w" sizes="(max-width: 169px) 100vw, 169px" />](uploads/2016/07/UITabBar-More-Items.png) [<img class="alignleft wp-image-670 size-medium" src="/assets/uploads/2016/07/UITabBar-More-Items-Active-169x300.png" alt="UITabBar More Items Active" width="169" height="300" srcset="/assets/uploads/2016/07/UITabBar-More-Items-Active-169x300.png 169w, uploads/2016/07/UITabBar-More-Items-Active-576x1024.png 576w, uploads/2016/07/UITabBar-More-Items-Active-108x192.png 108w, uploads/2016/07/UITabBar-More-Items-Active.png 750w" sizes="(max-width: 169px) 100vw, 169px" />](uploads/2016/07/UITabBar-More-Items-Active.png)
+[<img class="alignleft wp-image-671 size-medium" src="http://blog.marco.betschart.name/assets/uploads/2016/07/UITabBar-More-Items-169x300.png" alt="UITabBar More Items" width="169" height="300" />](uploads/2016/07/UITabBar-More-Items.png) [<img class="alignleft wp-image-670 size-medium" src="http://blog.marco.betschart.name/assets/uploads/2016/07/UITabBar-More-Items-Active-169x300.png" alt="UITabBar More Items Active" width="169" height="300" />](uploads/2016/07/UITabBar-More-Items-Active.png)
 
 If you got more than these five items, an inconvenient and ugly moreNavigationController takes over and ruins your whole ui experience by it&#8217;s unnatural and complex user interface.
 
@@ -27,7 +27,7 @@ In those valid cases, you had to circumvent the &#8222;More-Problem&#8220; by u
 
 Long story short: I&#8217;ve decided to went down a new path.
 
-[<img class="alignleft wp-image-669 size-medium" src="/assets/uploads/2016/07/FolderBar-More-Items-169x300.png" alt="FolderBar More Items" width="169" height="300" srcset="/assets/uploads/2016/07/FolderBar-More-Items-169x300.png 169w, uploads/2016/07/FolderBar-More-Items-576x1024.png 576w, uploads/2016/07/FolderBar-More-Items-108x192.png 108w, uploads/2016/07/FolderBar-More-Items.png 750w" sizes="(max-width: 169px) 100vw, 169px" />](uploads/2016/07/FolderBar-More-Items.png) [<img class="alignleft wp-image-668 size-medium" src="/assets/uploads/2016/07/FolderBar-More-Items-Active-169x300.png" alt="FolderBar More Items Active" width="169" height="300" srcset="/assets/uploads/2016/07/FolderBar-More-Items-Active-169x300.png 169w, uploads/2016/07/FolderBar-More-Items-Active-576x1024.png 576w, uploads/2016/07/FolderBar-More-Items-Active-108x192.png 108w, uploads/2016/07/FolderBar-More-Items-Active.png 750w" sizes="(max-width: 169px) 100vw, 169px" />](uploads/2016/07/FolderBar-More-Items-Active.png)
+[<img class="alignleft wp-image-669 size-medium" src="http://blog.marco.betschart.name/assets/uploads/2016/07/FolderBar-More-Items-169x300.png" alt="FolderBar More Items" width="169" height="300" />](uploads/2016/07/FolderBar-More-Items.png) [<img class="alignleft wp-image-668 size-medium" src="http://blog.marco.betschart.name/assets/uploads/2016/07/FolderBar-More-Items-Active-169x300.png" alt="FolderBar More Items Active" width="169" height="300" />](uploads/2016/07/FolderBar-More-Items-Active.png)
 
 The idea is simple:
 

@@ -18,7 +18,7 @@ tags:
   - Lesezeichen
   - Wunschzettel
 ---
-[<img class=" size-medium wp-image-211 alignleft" src="http://blog.marco.betschart.nameuploads/2015/08/top-ten-mistakes-leaders-make-200x300.jpg" alt="top-ten-mistakes-leaders-make" width="200" height="300" srcset="/assets/uploads/2015/08/top-ten-mistakes-leaders-make-200x300.jpg 200w, uploads/2015/08/top-ten-mistakes-leaders-make-683x1024.jpg 683w, uploads/2015/08/top-ten-mistakes-leaders-make-128x192.jpg 128w" sizes="(max-width: 200px) 100vw, 200px" />](http://blog.marco.betschart.nameuploads/2015/08/top-ten-mistakes-leaders-make.jpg){.broken_link}<https://itunes.apple.com/us/book/id626573326>
+[<img class=" size-medium wp-image-211 alignleft" src="http://blog.marco.betschart.name/assets/uploads/2015/08/top-ten-mistakes-leaders-make-200x300.jpg" alt="top-ten-mistakes-leaders-make" width="200" height="300" />](http://blog.marco.betschart.name/assets/uploads/2015/08/top-ten-mistakes-leaders-make.jpg){.broken_link}<https://itunes.apple.com/us/book/id626573326>
 
 <div id="geo-post-209" class="geo geo-post" style="display: none">
   <span class="latitude">47.3640918</span><span class="longitude">8.5546044</span>
