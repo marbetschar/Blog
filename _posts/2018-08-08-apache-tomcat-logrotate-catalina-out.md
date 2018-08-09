@@ -14,7 +14,7 @@ tags:
 - DevOps
 
 ---
-{% include image.html path="/assets/uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" path-detail="/assets/uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" alt="Apache Tomcat Logrotate catalina.out" %}
+{% include image.html path="uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" path-detail="uploads/2018/08/apache-tomcat-logrotate-catalina-out.jpg" alt="Apache Tomcat Logrotate catalina.out" %}
 
 Apache Tomcat logs everything into `catalina.out`: `System.out`, `System.err` as well as regular logs used by logging facilities such as `log4j`.
 

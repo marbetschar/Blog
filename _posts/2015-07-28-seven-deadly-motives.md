@@ -10,7 +10,7 @@ tags:
   - Weisheiten
   - Unternehmertum
 ---
-{% include image.html path="/assets/uploads/2015/07/killer.jpg" path-detail="/assets/uploads/2015/07/killer.jpg" alt="Seven Deadly Motives" %}
+{% include image.html path="uploads/2015/07/killer.jpg" path-detail="uploads/2015/07/killer.jpg" alt="Seven Deadly Motives" %}
 
 [© Hans Finzel](http://www.hansfinzel.com/47-seven-deadly-motives-for-being-in-leadership/)
 

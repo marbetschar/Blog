@@ -9,7 +9,7 @@ thumb_image: uploads/2015/07/piranhas.jpg
 tags:
   - Empfehlungen
 ---
-{% include image.html path="/assets/uploads/2015/07/piranhas.jpg" path-detail="/assets/uploads/2015/07/piranhas.jpg" alt="Passion Piranhas" %}
+{% include image.html path="uploads/2015/07/piranhas.jpg" path-detail="uploads/2015/07/piranhas.jpg" alt="Passion Piranhas" %}
 
 [© Hans Finzel](http://www.hansfinzel.com/piranhas/)
 

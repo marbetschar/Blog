@@ -10,7 +10,7 @@ tags:
   - Lesezeichen
   - Genuss
 ---
-{% include image.html path="/assets/uploads/2015/07/moudis.jpg" path-detail="/assets/uploads/2015/07/moudis.jpg" alt="Moudi's Lecker Garten" %}
+{% include image.html path="uploads/2015/07/moudis.jpg" path-detail="uploads/2015/07/moudis.jpg" alt="Moudi's Lecker Garten" %}
 
 Lecker. Frisch. Authentisch. Gesund. Wir interpretieren die libanesische Küche neu. Anders. Wie wir es mögen. Unsere 47 Mezzesorten sind ausnahmslos selbst zubereitet. Ebenso ist jede Schale, jeder Löffel und natürlich unsere Zutaten persönlich ausgesucht und zusammengestellt.
   

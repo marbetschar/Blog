@@ -8,6 +8,6 @@ tags:
   - Bücher
   - Wunschzettel
 ---
-{% include image.html path="/assets/uploads/2015/07/48-days-to-the-work-you-love.jpg" path-detail="/assets/uploads/2015/07/48-days-to-the-work-you-love.jpg" alt="48 Days To The Work You Love" %}
+{% include image.html path="uploads/2015/07/48-days-to-the-work-you-love.jpg" path-detail="uploads/2015/07/48-days-to-the-work-you-love.jpg" alt="48 Days To The Work You Love" %}
 
 https://itunes.apple.com/us/book/48-days-to-the-work-you-love/id934637340

@@ -9,6 +9,6 @@ thumb_image: uploads/2015/07/papagei.jpg
 tags:
   - Idiotie
 ---
-{% include image.html path="/assets/uploads/2015/07/papagei.jpg" path-detail="/assets/uploads/2015/07/papagei.jpg" alt="Spass bei der Arbeit" %}
+{% include image.html path="uploads/2015/07/papagei.jpg" path-detail="uploads/2015/07/papagei.jpg" alt="Spass bei der Arbeit" %}
 
 > Wer lacht, hat noch Ressourcen frei. <small>Unbekannt</small>

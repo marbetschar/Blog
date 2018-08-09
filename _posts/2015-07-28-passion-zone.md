@@ -10,7 +10,7 @@ tags:
   - Empfehlungen
   - Unternehmertum
 ---
-{% include image.html path="/assets/uploads/2015/07/RegainPassion.png" path-detail="/assets/uploads/2015/07/RegainPassion.png" alt="Passion Zone" %}
+{% include image.html path="uploads/2015/07/RegainPassion.png" path-detail="uploads/2015/07/RegainPassion.png" alt="Passion Zone" %}
 
 [© Hans Finzel](http://www.hansfinzel.com/passion-zone/)
 
