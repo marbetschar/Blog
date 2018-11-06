@@ -29,5 +29,5 @@ fields:
   name: tags
   label: Tags
 pages:
-- _posts/2018-08-07-jekyll-chalk-gitlab-ci.md
 - _posts/2018-08-08-apache-tomcat-logrotate-catalina-out.md
+- _posts/2018-08-07-jekyll-chalk-gitlab-ci.md
