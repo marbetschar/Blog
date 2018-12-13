@@ -37,7 +37,7 @@ pages:
     - gh-pages
   stage: build
   script:
-    - mkdir public
+    - mkdir -p public
     - shopt -s extglob
     - mv !(public) public
   artifacts:
