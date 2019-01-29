@@ -29,7 +29,7 @@ git commit --allow-empty -m "$(git log -1 --pretty=%B)" # add " [ci skip]" to sk
 # configure remote
 git remote set-url --push origin "$(perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#' <<< $CI_REPOSITORY_URL)"
 # push changes
-git push -f -q origin gh-pages
+git push -u -f -q origin gh-pages
 
 # Move back to previous branch (not needed for GitLab.com CI build)
 # git checkout -
