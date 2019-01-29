@@ -27,12 +27,11 @@ rm -R _site/
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B)" # add " [ci skip]" to skip ci on gh-pages branch. In our case, CI is expected.
 
-#GIT_ORIGIN_URL="$(perl -pe 's#.*@(.+?(\:\d+)?)/#git@\1:#' <<< $CI_REPOSITORY_URL)"
 # configure remote
-#git remote set-url --push origin "$GIT_ORIGIN_URL"
+git remote set-url --push origin "git@github.com:marbetschar/Blog.git"
 
 # push changes
-git push -u -f -q origin gh-pages
+git push -f -q origin gh-pages
 
 # Move back to previous branch (not needed for GitLab.com CI build)
 # git checkout -
