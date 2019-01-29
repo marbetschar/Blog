@@ -1,58 +1,1545 @@
----
-layout: default
-title: "Marco Betschart"
-description: "lover of the never ending journey of exploration. self growth and tech enthusiast. ambitious rock climber. and ... from time to time adrenaline junkie."
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Marco Betschart | Marco Betschart</title>
+  <meta name="description" content="lover of the never ending journey of exploration. self growth and tech enthusiast. ambitious rock climber. and ... from time to time adrenaline junkie.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="0xS8oUjnHzhbiGD7iZp4oAKmrI_NrrnHOSb_9icNpPQ" />
 
-<ul class="article-list">
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        {% if post.thumb_image %}
-          <img src="{% asset '{{ post.thumb_image }}' @path %}" alt="{{ post.description }}" />
-        {% endif %}
+  <meta property="og:title" content="Marco Betschart">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blog.marco.betschart.name/">
+  <meta property="og:description" content="lover of the never ending journey of exploration. self growth and tech enthusiast. ambitious rock climber. and ... from time to time adrenaline junkie.">
+  <meta property="og:site_name" content="Marco Betschart">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://blog.marco.betschart.name/">
+  <meta name="twitter:title" content="Marco Betschart">
+  <meta name="twitter:description" content="lover of the never ending journey of exploration. self growth and tech enthusiast. ambitious rock climber. and ... from time to time adrenaline junkie.">
+
+  <meta name="yandex-verification" content="692b59089bd0f8c1" />
+
+  
+    <meta property="og:image" content="https://blog.marco.betschart.name/assets/og-image-1032ac2d0f0e714697bcf0b9854e825cd171dc06aaea93304aa3a00bac686ace.jpg">
+    <meta name="twitter:image" content="https://blog.marco.betschart.name/assets/og-image-1032ac2d0f0e714697bcf0b9854e825cd171dc06aaea93304aa3a00bac686ace.jpg">
+  
+
+  <link href="https://blog.marco.betschart.name/feed.xml" type="application/rss+xml" rel="alternate" title="Marco Betschart Last 10 blog posts" />
+
+  
+
+  
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-dark-147faf4cdfde9863c1e08c30b3f07b7271e22fc24835775ec414ab77625288fc.ico">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon-dark-6867fbef54635531f3c3593a2ed4708754cb726fc986ee8076bd88ae69d67cda.png">
+    <link rel="stylesheet" type="text/css" href="/assets/dark-bfbf3ace94e0057f416c510162aa410a4555ef73caa30b42a94af260680eea32.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/" class="header-logo" title="Marco Betschart">Marco Betschart</a>
+  <ul class="header-links">
+    
+    
+      <li>
+        <a href="https://twitter.com/marbetschar" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/marbetschar" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://gitlab.com/marbetschar" rel="noreferrer noopener" target="_blank" title="GitLab">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-gitlab">
+  <use href="/assets/gitlab-cd27fc8b2a8ff6eb466c87e5bd6c8311a45ae0fa6eb8ce830a9378097f16647e.svg#icon-gitlab" xlink:href="/assets/gitlab-cd27fc8b2a8ff6eb466c87e5bd6c8311a45ae0fa6eb8ce830a9378097f16647e.svg#icon-gitlab"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</nav>
+
+        <ul class="article-list">
+  
+    <li class="article-list-item scrollappear">
+      <a href="/apache-tomcat-logrotate-catalina-out/" title="Apache Tomcat Logrotate catalina.out">
+        
+          <img src="/assets/uploads/2018/08/apache-tomcat-logrotate-catalina-out-01a4b6c8d62eed83cac8efa26857c4724322b9c2f8fb09088a5f1e91606e7166.jpg" alt="Howto rotate the Apache Tomcat log file and avoid ending up with a huge catalina.out" />
+        
         <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
+          Apache Tomcat Logrotate catalina.out
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
         </h5>
       </a>
       <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
+        
+          Howto rotate the Apache Tomcat log file and avoid ending up with a huge catalina.out  
+        
       </p>
       <div class="article-list-footer">
         <span class="article-list-date">
-          {{ post.date | date: "%B %-d, %Y" }}
+          August 8, 2018
         </span>
         <span class="article-list-divider">-</span>
         <span class="article-list-minutes">
-          {% capture words %}
-            {{ post.content | number_of_words }}
-          {% endcapture %}
-          {% unless words contains "-" %}
-            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
-          {% endunless %}
+          
+          
+            2 minute read
+          
         </span>
         <span class="article-list-divider">-</span>
         <div class="article-list-tags">
-          {% for tag in post.tags %}
-            <a href="{{ 'tag/' | relative_url }}{{ tag }}">{{ tag }}</a>
-          {% endfor %}
+          
+            <a href="/tag/Apache Tomcat">Apache Tomcat</a>
+          
+            <a href="/tag/Java">Java</a>
+          
+            <a href="/tag/Logrotate">Logrotate</a>
+          
+            <a href="/tag/Linux">Linux</a>
+          
+            <a href="/tag/DevOps">DevOps</a>
+          
         </div>
       </div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
+  
+    <li class="article-list-item scrollappear">
+      <a href="/jekyll-chalk-gitlab-ci/" title="Jekyll, Chalk & GitLab CI / CD">
+        
+          <img src="/assets/uploads/2018/08/jekyll-gitlab-continous-integration-a0770d65ecbf9a05fec48b0e41fcde15be67b5cf76271158b31a4db21821ad30.jpg" alt="How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI / CD." />
+        
+        <h5>
+          Jekyll, Chalk & GitLab CI / CD
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI / CD.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          August 7, 2018
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Jekyll">Jekyll</a>
+          
+            <a href="/tag/GitLab">GitLab</a>
+          
+            <a href="/tag/CI / CD">CI / CD</a>
+          
+        </div>
+      </div>
     </li>
-  {% endif %}
+  
+    <li class="article-list-item scrollappear">
+      <a href="/cloudron-migrate-app-to-different-instance/" title="Cloudron: Migrate app to different instance">
+        
+          <img src="/assets/uploads/2018/08/cloudron-docker-container-a29ef707f71188ddf86858a5ad6c75c8af1500ea4c39229914c5ad083816de1f.jpg" alt="Howto migrate apps from one Cloudron to another." />
+        
+        <h5>
+          Cloudron: Migrate app to different instance
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Howto migrate apps from one Cloudron to another.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          July 17, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Cloudron">Cloudron</a>
+          
+            <a href="/tag/Linux">Linux</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/get-all-resource-paths-in-bundle-recursively/" title="Get all resource paths in bundle recursively">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="I've been looking for a way to search a subdirectory in my main bundle recursively - the following simple Swift extension does the trick." />
+        
+        <h5>
+          Get all resource paths in bundle recursively
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          I've been looking for a way to search a subdirectory in my main bundle recursively - the following simple Swift extension does the trick.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          April 25, 2017
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Swift">Swift</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/hoer-auf-deine-leidenschaft-zu-suchen/" title="Hör auf, Deine Leidenschaft zu suchen!">
+        
+          <img src="/assets/uploads/2016/12/Screw-Finding-Your-Passion-83969fe7ee54dfe89cd10e91ee0df77797705c276f0151bf975ee08b6a8f1b46.jpg" alt="" />
+        
+        <h5>
+          Hör auf, Deine Leidenschaft zu suchen!
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <blockquote>
+  <p>“not knowing” is the whole fucking point. Life is all about not knowing, and then doing something anyway. All of life is like this. All of it.</p>
+</blockquote>
+
+<blockquote>
+  <p><cite>– <a href="https://markmanson.net/passion" target="_blank"><strong>Screw Finding Your Passion</strong> by Mark Manson</a></cite></p>
+</blockquote>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 26, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Empfehlungen">Empfehlungen</a>
+          
+            <a href="/tag/Weisheiten">Weisheiten</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/folderbar-a-new-approach-for-more-than-5-tabs-in-the-uitabbar/" title="FolderBar: A new approach to more than 5 Tabs in a UITabBar">
+        
+          <img src="/assets/uploads/2016/07/FolderBar-More-Items-Active-6973781617613b12f325120a9001ec015271ac827f3730684a2d49a9206554a8.png" alt="" />
+        
+        <h5>
+          FolderBar: A new approach to more than 5 Tabs in a UITabBar
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>You may already came across the Apple tab limitation for the UITabBarController: You are only allowed to have a maximum of 5 tabs in a UITabBar.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          July 20, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Apps">Apps</a>
+          
+            <a href="/tag/Empfehlungen">Empfehlungen</a>
+          
+            <a href="/tag/Technologie">Technologie</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/codify-country-name/" title="Codify country name">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="Java snippet to codify country names to their ISO country code and vice versa." />
+        
+        <h5>
+          Codify country name
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Java snippet to codify country names to their ISO country code and vice versa.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          July 5, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Java">Java</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/wordpress-jquery-version-downgrade/" title="WordPress jQuery Version Downgrade">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          WordPress jQuery Version Downgrade
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <div class="snippetcpt-wrap" id="snippet-598" data-id="598" data-edit="/wp-admin/post.php?post=598&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=598" data-fullscreen="/code-snippets/downgrade-jquery/?full-screen=1">
+  <pre class="prettyprint linenums lang-php" title="Downgrade jQuery">add_action('init', function(){
+    if (!is_admin()) {
+        wp_deregister_script('jquery');
+        wp_register_script('jquery',
+'//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', false, '1.8.3');
+        wp_enqueue_script('jquery');
+    }
+});</pre>
+</div>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          May 15, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/public-email-domain/" title="Public Email Domain">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="" />
+        
+        <h5>
+          Public Email Domain
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Check if a email string is an email address of a public email provider by just using this one liner in Swift:</p>
+
+<pre style="text-align: justify;">"marbetschar@gmail.com" ~= PublicEmailDomain.Any</pre>
+
+<p style="text-align: justify;">
+  Full Swift source code:
+</p>
+
+<p style="text-align: justify;">
+  <div class="snippetcpt-wrap" id="snippet-595" data-id="595" data-edit="/wp-admin/post.php?post=595&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=595" data-fullscreen="/code-snippets/public-email-domain/?full-screen=1">
+    <pre class="prettyprint linenums lang-swift" title="Public Email Domain">enum PublicEmailDomain: String{
+    case Any
+    case Aol = "^aol\\.[a-z]{2,5}$"
+    case iCloud = "^icloud\\.com$"
+    case Mac = "^mac\\.com$"
+    case Me = "^me\\.com$"
+    case Bluewin = "^bluewin\\.ch$"
+    case Eclipso = "^eclipso\\.[a-z]{2,5}$"
+    case Freenet = "^freenet\\.ch$"
+    case Gmx = "^gmx\\.[a-z]{2,5}$"
+    case Gmail = "^gmail\\.[a-z]{2,5}$"
+    case Googlemail = "^googlemail\\.[a-z]{2,5}$"
+    case Hotmail = "^hotmail\\.[a-z]{2,5}$"
+    case Inbox = "^inbox\\.[a-z]{2,5}$"
+    case Outlook = "^outlook\\.com$"
+    case Live = "^live\\.[a-z]{2,5}$"
+    case Msn = "^msn\\.com$"
+    case Net24 = "^net-24\\.at$"
+    case Online = "^online\\.de$"
+    case TOnline = "^t-online\\.de$"
+    case Web = "^web\\.[a-z]{2,5}$"
+    case Yahoo = "^yahoo\\.[a-z]{2,5}$"
+    case Zoho = "^zoho\\.[a-z]{2,5}$"
+    case Yandex = "^yandex\\.[a-z]{2,5}$"
+    
+    static let allValues: [PublicEmailDomain] = [
+        Aol,
+        iCloud,
+        Mac,
+        Me,
+        Bluewin,
+        Eclipso,
+        Freenet,
+        Gmx,
+        Gmail,
+        Googlemail,
+        Hotmail,
+        Inbox,
+        Outlook,
+        Live,
+        Msn,
+        Net24,
+        Online,
+        TOnline,
+        Web,
+        Yahoo,
+        Zoho,
+        Yandex
+    ]
+}
+
+extension PublicEmailDomain: Equatable{}
+
+func == (lhs: String, rhs: PublicEmailDomain) -&gt; Bool{
+    
+    switch(rhs){
+    case .Any:
+        for publicEmailDomain in PublicEmailDomain.allValues{
+            if lhs == publicEmailDomain {
+                return true
+            }
+        }
+        return false
+        
+    default:
+        do{
+            return try NSRegularExpression(pattern: rhs.rawValue, options: .CaseInsensitive).numberOfMatchesInString(lhs, options: [], range: NSMakeRange(0, lhs.characters.count)) == 1
+            
+        } catch _{
+            return false
+        }
+    }
+}
+
+
+func ~=(email: String, publicEmailDomain: PublicEmailDomain) -&gt; Bool{
+    let domain: String = {
+        let parts = email.characters.split{$0 == "@"}.map(String.init)
+        return parts[parts.count - 1]
+    }()
+
+    return domain == publicEmailDomain
+}</pre>
+  </div>
+</p>
+
+<p> </p>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          May 7, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Technologie">Technologie</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/couchbaselite-module-maps/" title="CouchbaseLite &#8211; Module maps">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="" />
+        
+        <h5>
+          CouchbaseLite &#8211; Module maps
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>As convenient as the bridging header is, it has one key limitation—you can’t use it inside a framework project.  The alternative is to use a <a href="http://clang.llvm.org/docs/Modules.html" title="Clang Module documentation">module</a>.</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          April 10, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Technologie">Technologie</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/xctassert/" title="XCTAssert">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="" />
+        
+        <h5>
+          XCTAssert
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <h3 id="overview">Overview</h3>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          March 7, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Technologie">Technologie</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/charset-konvertieren/" title="Charset Konvertieren">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="" />
+        
+        <h5>
+          Charset Konvertieren
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Java unterstützt auf einfache Art und Weise die Konvertierung von Zeichensätzen:</p>
+
+<div class="snippetcpt-wrap" id="snippet-564" data-id="564" data-edit="/wp-admin/post.php?post=564&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=564" data-fullscreen="/code-snippets/charset-convert/?full-screen=1">
+  <pre class="prettyprint linenums lang-java" title="Charset Convert">import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+
+Charset utf8 = Charset.forName("UTF-8");
+Charset iso88591 = Charset.forName("ISO-8859-1");
+
+//get byte array from string
+ByteBuffer utf8Buffer = ByteBuffer.wrap( utf8String.getBytes() );
+
+//convert byte array from UTF-8 to ISO-8859-1
+ByteBuffer iso88591Buffer = iso88591.encode( utf8.decode( utf8Buffer ) );
+
+//parse byte array to ISO-8859-1 string
+String iso88591String = new String( iso88591Buffer.array(), "ISO-8859-1" ); </pre>
+</div>
+
+<p>Nähere Angaben zu den unterstützten Zeichensätzen findet sich in der <a href="https://docs.oracle.com/javase/7/docs/api/java/nio/charset/Charset.html" target="_blank">Dokumentation der Klasse Charset</a>.</p>
+
+<p>Um mit Java die Daten aus einer Oracle Datenbank von ISO-8859-1 in UTF-8 konvertieren kann man folgendermassen vorgehen:</p>
+
+<div class="snippetcpt-wrap" id="snippet-552" data-id="552" data-edit="/wp-admin/post.php?post=552&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=552" data-fullscreen="/code-snippets/oracle-charset-convert/?full-screen=1">
+  <pre class="prettyprint linenums lang-java" title="Oracle Charset Convert">import java.io.UnsupportedEncodingException;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+Class.forName("oracle.jdbc.driver.OracleDriver");
+Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@server:port:sid", "username", "password");
+
+PreparedStatement selectStmt = connection.prepareStatement("SELECT id,subject FROM messages");
+ResultSet resultSet = selectStmt.executeQuery();
+
+Charset utf8 = Charset.forName("UTF-8");
+Charset iso88591 = Charset.forName("ISO-8859-1");
+
+System.out.println( "Converting Records..." );
+
+while( resultSet.next() ){
+    byte[] raw = resultSet.getBytes("subject");
+    ByteBuffer iso88591Buffer = ByteBuffer.wrap(raw);
+
+    //do the actual charset conversion
+    ByteBuffer utf8Buffer = utf8.encode( iso88591.decode(iso88591Buffer) );
+    
+    try{
+        String iso88591Str = new String(iso88591Buffer.array(),"UTF8");
+        String utf8Str = new String(utf8Buffer.array(),"UTF8");
+        
+        System.out.println("UTF8: '" + iso88591Str + "' =&gt; '" + utf8Str + "'");
+        
+        PreparedStatement updateStmt = connection.prepareStatement("UPDATE messages SET subject = ? WHERE id = ?");
+        updateStmt.setString(1,utf8Str);
+        updateStmt.setInt(2, resultSet.getInt("id"));
+        updateStmt.executeUpdate();
+        updateStmt.close();
+        
+    } catch( UnsupportedEncodingException e ){}
+}
+
+if( selectStmt != null ){
+    selectStmt.close();
+}</pre>
+</div>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          February 24, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Charset">Charset</a>
+          
+            <a href="/tag/Java">Java</a>
+          
+            <a href="/tag/Oracle">Oracle</a>
+          
+            <a href="/tag/SQL">SQL</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/woocommerce-email-adresse-bestaetigen/" title="WooCommerce: E-Mail Adresse bestätigen">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          WooCommerce: E-Mail Adresse bestätigen
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Im WooCommerce Checkout Prozess lässt sich ganz einfach ein zusätzliches Feld für die Validierung der eingegebenen E-Mail-Adresse hinzufügen:</p>
+
+<p><a href="http://blog.marco.betschart.name/assets/uploads/2016/02/billing_email_confirm.png" rel="attachment wp-att-546"><img class="alignnone size-full wp-image-546" src="http://blog.marco.betschart.name/assets/uploads/2016/02/billing_email_confirm.png" alt="billing_email_confirm" width="812" height="164" /></a></p>
+
+<div class="snippetcpt-wrap" id="snippet-540" data-id="540" data-edit="/wp-admin/post.php?post=540&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=540" data-fullscreen="/code-snippets/checkout-email-confirm/?full-screen=1">
+  <pre class="prettyprint linenums lang-php" title="Checkout E-Mail Confirm">add_filter('woocommerce_checkout_fields',function($fields){
+    $billing_email_confirm = array(
+        'label'            =&gt; 'E-Mail-Adresse best&auml;tigen',
+        'placeholder'    =&gt; '',
+        'required'        =&gt; true,
+        'class'            =&gt; apply_filters('woocommerce_billing_email_confirm_field_class',array('form-row-first')),
+        'clear'            =&gt; true,
+        'validate'        =&gt; array('email'),
+    );
+    $billing_email_index = array_search('billing_email', array_keys($fields['billing']));
+  
+    if( $billing_email_index ){
+        $fields['billing'] = array_slice($fields['billing'],0,$billing_email_index + 1,true) +
+            array( 'billing_email_confirm' =&gt; $billing_email_confirm ) +
+            array_slice($fields['billing'],$billing_email_index + 1,null,true);
+    } else {
+        $fields['billing']['billing_email_confirm'] = $billing_email_confirm;
+    }
+
+    return $fields;
+});
+
+add_filter('woocommerce_process_checkout_field_billing_email_confirm',function($email_confirm=''){
+    global $woocommerce;
+    $billing_email = $woocommerce-&gt;checkout-&gt;posted['billing_email'];
+
+    if( strtolower($email_confirm) != strtolower($billing_email) ){
+        $notice = '&lt;strong&gt;E-Mail-Adressen stimmen nicht &uuml;berein&lt;/strong&gt;';
+
+        if ( version_compare( WC_VERSION, '2.3', '&lt;' ) ) {
+            $woocommerce-&gt;add_error($notice);
+        } else {
+            wc_add_notice($notice,'error');
+        }
+    }
+
+    return $email_confirm;
+});
+
+add_filter('default_checkout_billing_email_confirm',function($value=null,$field='billing_email_confirm'){
+    if( is_user_logged_in() ){
+        global $current_user;
+        $value = $current_user-&gt;user_email;
+    }
+    return $value;
+},10,2);</pre>
+</div>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          February 17, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WooCommerce">WooCommerce</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/git-restore-from-bundle/" title="Git: Restore from Bundle">
+        
+        <h5>
+          Git: Restore from Bundle
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <div class="snippetcpt-wrap" id="snippet-478" data-id="478" data-edit="/wp-admin/post.php?post=478&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=478" data-fullscreen="/code-snippets/restore-from-bundle/?full-screen=1">
+  <pre class="prettyprint linenums lang-bash" title="Restore from Bundle">cd ~/foo.git
+git bundle verify foo.bundle
+git clone foo.bundle</pre>
+</div>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          February 8, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Git">Git</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/alle-coupons/" title="WooCommerce: Alle coupons">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          WooCommerce: Alle coupons
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Um alle Coupons aus WooCommerce auszulesen:</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 30, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WooCommerce">WooCommerce</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/wordpress-alle-rollen/" title="WordPress: Alle Rollen">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          WordPress: Alle Rollen
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Um alle Benutzerrollen von WordPress auszulesen:</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 24, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/oracle-xe-change-ports/" title="Oracle XE: Change Ports">
+        
+          <img src="/assets/uploads/2016/01/server-90389_1920-ad9af18793b3f123460c7075be59d0d1181219978dc6306cce5f04003a6682a3.jpg" alt="" />
+        
+        <h5>
+          Oracle XE: Change Ports
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Um die Standartports von Oracle XE zu ändern, einfach folgende Schritte ausführen:</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 15, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Oracle">Oracle</a>
+          
+            <a href="/tag/SQL">SQL</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/really-simple-ssl/" title="Really Simple SSL">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="SSL für die gesamte WordPress Webseite - mit nur einem Klick!" />
+        
+        <h5>
+          Really Simple SSL
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          SSL für die gesamte WordPress Webseite - mit nur einem Klick!  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 9, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Plugin">Plugin</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/404page/" title="404 Seite leicht gemacht">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          404 Seite leicht gemacht
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Create your custom 404 Page as a normal WordPress Page using the full power of WordPress. You can use a Custom Page Template or Custom Fields, you can set a Featured Image – everything like on every other Page. Then go to ‚Settings‘ -&gt; ‚404 Error Page‘ from your WordPress Dashbord and select the created Page as your 404 error page. That’s it!</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          January 3, 2016
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Plugin">Plugin</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/product-url-without-type/" title="Product URL without Type">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="Produkte in WooCommerce aufrufen, ohne den /product Slug in der URL." />
+        
+        <h5>
+          Product URL without Type
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Produkte in WooCommerce aufrufen, ohne den /product Slug in der URL.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 26, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WooCommerce">WooCommerce</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/posts-privat-ios-app/" title="Posts &#8222;Privat&#8220; by Default &#8211; iOS App">
+        
+          <img src="/assets/uploads/2015/12/wordpress-589121-96a4e296ee85b456d015211db7724b8bc2bb0dbd8ac23fd4eb280987a7f7aa60.jpg" alt="" />
+        
+        <h5>
+          Posts &#8222;Privat&#8220; by Default &#8211; iOS App
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Die Sichtbarkeit neuer Posts die aus der WordPress App erstellt werden automatisch auf <em>Privat</em> setzen:</p>
+
+<div class="snippetcpt-wrap" id="snippet-486" data-id="486" data-edit="/wp-admin/post.php?post=486&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=486" data-fullscreen="/code-snippets/private-posts-default-admin/?full-screen=1">
+  <pre class="prettyprint linenums lang-php" title="Private Posts by Default - Admin">add_action('post_submitbox_misc_actions',function(){
+  global $post;
+  
+  if( 'publish' == $post-&gt;post_status ){
+    $visibility = 'public';
+    $i18n = __('Public');
+    
+  } elseif( !empty( $post-&gt;post_password ) ){
+    $visibility = 'password';
+    $i18n = __('Password protected');
+    
+  } elseif ( $post_type == 'post' &amp;&amp; is_sticky( $post-&gt;ID ) ) {
+    $visibility = 'public';
+    $i18n = __('Public, Sticky');
+
+  } else {
+    $post-&gt;post_password = '';
+    $visibility = 'private';
+    $i18n = __('Private');
+  }
+  
+  echo '&lt;script type="text/javascript"&gt;(function($){'.
+    'try{'.
+      '$("#post-visibility-display").text("'.$i18n.'");'.
+      '$("#hidden-post-visibility").val("'.$visibility.'");'.
+      '$("#visibility-radio-'.$visibility.'").prop("checked", true);'.
+    '} catch(err){}'.
+  '})(jQuery);&lt;/script&gt;';
+});</pre>
+</div>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 23, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/beleuchtung-dimmen/" title="Beleuchtung Dimmen">
+        
+          <img src="/assets/uploads/2015/12/woman-653892_1920-fb058c9ce3e9bb1a773901242bd595480fdccb1b2ebb22d2ac4eaf683e373b59.jpg" alt="" />
+        
+        <h5>
+          Beleuchtung Dimmen
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>Das iPhone schnell in den Nachtmodus setzen um seinen Augen etwas gutes zu tun und obendrein auch noch die Akkulaufzeit zu verbessern:</p>
+
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 21, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Lifehacks">Lifehacks</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/import-media-query/" title="@import media query">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="CSS Code in Dateien auslagern und anhand von media queries anwenden." />
+        
+        <h5>
+          @import media query
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          CSS Code in Dateien auslagern und anhand von media queries anwenden.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 19, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/CSS">CSS</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/code-snippets-shortcode/" title="Code Snippets Shortcode">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="Ein Shortcode für das fantastische Code Snippets Plugin um Snippets aus diesem Plugin auch im Frontend darzustellen." />
+        
+        <h5>
+          Code Snippets Shortcode
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          Ein Shortcode für das fantastische Code Snippets Plugin um Snippets aus diesem Plugin auch im Frontend darzustellen.  
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 17, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            1 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/PHP">PHP</a>
+          
+            <a href="/tag/WordPress">WordPress</a>
+          
+        </div>
+      </div>
+    </li>
+  
+    <li class="article-list-item scrollappear">
+      <a href="/swift-eureka-contactrow/" title="Eureka ContactRow in Swift">
+        
+          <img src="/assets/uploads/2015/12/code-1084923-0910422b2b9a0a7136f9144be789e416fb0f4194e9300f36b867ae9674771f1d.png" alt="" />
+        
+        <h5>
+          Eureka ContactRow in Swift
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right" xlink:href="/assets/arrow-right-05feb9da52810d15348895a9a885c61803f4d2ae681b4fc442b285fef184dd2b.svg#icon-arrow-right"></use>
+</svg>
+
+        </h5>
+      </a>
+      <p>
+        
+          <p>A custom row for the <a href="https://github.com/xmartlabs/Eureka">elegant iOS form builder in Swift 2 called Eureka</a>:</p>
+
+<p><a href="http://blog.marco.betschart.name/assets/uploads/2015/12/ContactRow.gif" rel="attachment wp-att-398" class="broken_link"><img class="aligncenter wp-image-398 size-full" src="http://blog.marco.betschart.name/assets/uploads/2015/12/ContactRow.gif" alt="ContactRow" width="375" /></a></p>
+
+<p>Select an existing contact from the iOS AddressBook using the new iOS 9 CNContact API – <a href="https://github.com/xmartlabs/Eureka/issues/127">request for integration pending</a>.</p>
+
+<div class="snippetcpt-wrap" id="snippet-496" data-id="496" data-edit="/wp-admin/post.php?post=496&amp;action=edit" data-copy="/wp-admin/export.php?type=jekyll&#038;snippet=b31d996337&#038;id=496" data-fullscreen="/code-snippets/eureka-contactrow/?full-screen=1">
+  <pre class="prettyprint linenums lang-swift" title="Eureka ContactRow">import Foundation
+import Contacts
+import ContactsUI
+import Eureka
+
+
+public class _ContactRow: Row&lt;String,ContactCell&gt; {
+    required public init(tag: String?){
+        super.init(tag: tag)
+    }
+}
+
+
+public final class ContactRow: _ContactRow, RowType{
+
+    required public init(tag: String?) {
+        super.init(tag: tag)
+        self.displayValueFor = nil
+    }
+}
+
+public class ContactCellOf&lt;T: Equatable&gt;: Cell&lt;T&gt;, CellType, CNContactPickerDelegate {
+    required public init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+
+
+    public override func setup(){
+        super.setup()
+        self.bindContact()
+    }
+
+
+    public override func update() {
+        super.update()
+        self.bindContact()
+    }
+
+
+    private func bindContact(){
+        switch CNContactStore.authorizationStatusForEntityType(.Contacts){
+        case .Authorized: //Update our UI if the user has granted access to their Contacts
+            selectionStyle = row.isDisabled ? .None : .Default
+
+            if let id = self.row.value as? String, let contact = contactFromIdentifier(id){
+                detailTextLabel?.text = CNContactFormatter.stringFromContact(contact, style: .FullName)
+            }
+
+        case .NotDetermined: //Prompt the user for access to Contacts if there is no definitive answer
+            CNContactStore().requestAccessForEntityType(.Contacts) { granted, error in
+                dispatch_async(dispatch_get_main_queue()){
+                    self.row.disabled = Condition.init(booleanLiteral: !granted)
+                    self.selectionStyle = self.row.isDisabled ? .None : .Default
+
+                    if granted, let id = self.row.value as? String, let contact = self.contactFromIdentifier(id){
+                        self.detailTextLabel?.text = CNContactFormatter.stringFromContact(contact, style: .FullName)
+                    }
+                }
+            }
+
+        case .Denied, .Restricted:
+            self.row.disabled = true
+            selectionStyle = row.isDisabled ? .None : .Default
+        }
+    }
+
+
+    private func contactFromIdentifier(identifier: String) -&gt; CNContact?{
+        do{
+            return try CNContactStore().unifiedContactWithIdentifier(identifier, keysToFetch: [CNContactFormatter.descriptorForRequiredKeysForStyle(.FullName)])
+
+        } catch let error as NSError{
+            NSLog(error.localizedDescription)
+            return nil
+        }
+    }
+
+
+    public override func didSelect() {
+        super.didSelect()
+
+        let controller = CNContactPickerViewController()
+        controller.delegate = self
+
+        self.formViewController()?.presentViewController(controller, animated: true, completion: nil)
+    }
+
+
+    public func contactPicker(picker: CNContactPickerViewController, didSelectContactProperty contactProperty: CNContactProperty){
+        if contactProperty.contact.isKeyAvailable(CNContactIdentifierKey), let id = contactProperty.contact.valueForKey(CNContactIdentifierKey) as? T{
+            self.row.value = id
+
+        } else {
+            self.row.value = nil
+        }
+    }
+}
+public typealias ContactCell = ContactCellOf&lt;String&gt;</pre>
+</div>
+
+        
+      </p>
+      <div class="article-list-footer">
+        <span class="article-list-date">
+          December 9, 2015
+        </span>
+        <span class="article-list-divider">-</span>
+        <span class="article-list-minutes">
+          
+          
+            2 minute read
+          
+        </span>
+        <span class="article-list-divider">-</span>
+        <div class="article-list-tags">
+          
+            <a href="/tag/Swift">Swift</a>
+          
+        </div>
+      </div>
+    </li>
+  
+  
+    <li class="article-pagination ">
+      
+        <a href="/posts/page/2/" class="article-pagination-left"><svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-left">
+  <use href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left" xlink:href="/assets/arrow-left-3fbaf3633c5b37e961028aa1ab5a308806edebadcfc1f9f0b30bcf35c3a4fb8c.svg#icon-arrow-left"></use>
+</svg>
+ Older posts</a>
+      
+      
+    </li>
+  
 </ul>
+
+        <footer class="footer scrollappear">
+  <p>
+    my name is Marco Betschart.
+    lover of the never ending journey of exploration.
+    self growth and tech enthusiast.
+    ambitious rock climber. and ... from time to time adrenaline junkie.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121929115-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-121929115-2');
+  </script>
+
+
+<script src="/assets/vendor-9a9dd357c523104bebaea02251409e037c69b20c285bdfbc6961ef0245cf9c11.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+  <script src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Marco Betschart</title>
+    <description>digital native &amp;&amp; nerdpreneur</description>
+    <link>https://blog.marco.betschart.name</link>
+    <atom:link href="https://blog.marco.betschart.name/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Apache Tomcat Logrotate catalina.out</title>
+        <description>Howto rotate the Apache Tomcat log file and avoid ending up with a huge catalina.out</description>
+        <pubDate>Wed, 08 Aug 2018 12:02:22 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/apache-tomcat-logrotate-catalina-out/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/apache-tomcat-logrotate-catalina-out/</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Jekyll, Chalk &amp; GitLab CI / CD</title>
+        <description>How to build the Chalk theme for Jekyll on GitLab.com using GitLab CI / CD.</description>
+        <pubDate>Tue, 07 Aug 2018 19:42:30 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/jekyll-chalk-gitlab-ci/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/jekyll-chalk-gitlab-ci/</guid>
+      </item>
+    
+      <item>
+        <title>Cloudron: Migrate app to different instance</title>
+        <description>Howto migrate apps from one Cloudron to another.</description>
+        <pubDate>Mon, 17 Jul 2017 21:18:04 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/cloudron-migrate-app-to-different-instance/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/cloudron-migrate-app-to-different-instance/</guid>
+      </item>
+    
+      <item>
+        <title>Get all resource paths in bundle recursively</title>
+        <description>I've been looking for a way to search a subdirectory in my main bundle recursively - the following simple Swift extension does the trick.</description>
+        <pubDate>Tue, 25 Apr 2017 22:10:52 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/get-all-resource-paths-in-bundle-recursively/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/get-all-resource-paths-in-bundle-recursively/</guid>
+      </item>
+    
+      <item>
+        <title>Hör auf, Deine Leidenschaft zu suchen!</title>
+        <description></description>
+        <pubDate>Mon, 26 Dec 2016 22:39:00 +0100</pubDate>
+        <link>https://blog.marco.betschart.name/hoer-auf-deine-leidenschaft-zu-suchen/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/hoer-auf-deine-leidenschaft-zu-suchen/</guid>
+      </item>
+    
+      <item>
+        <title>FolderBar: A new approach to more than 5 Tabs in a UITabBar</title>
+        <description></description>
+        <pubDate>Wed, 20 Jul 2016 21:30:59 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/folderbar-a-new-approach-for-more-than-5-tabs-in-the-uitabbar/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/folderbar-a-new-approach-for-more-than-5-tabs-in-the-uitabbar/</guid>
+      </item>
+    
+      <item>
+        <title>Codify country name</title>
+        <description>Java snippet to codify country names to their ISO country code and vice versa.</description>
+        <pubDate>Tue, 05 Jul 2016 14:50:54 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/codify-country-name/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/codify-country-name/</guid>
+      </item>
+    
+      <item>
+        <title>WordPress jQuery Version Downgrade</title>
+        <description></description>
+        <pubDate>Sun, 15 May 2016 09:45:36 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/wordpress-jquery-version-downgrade/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/wordpress-jquery-version-downgrade/</guid>
+      </item>
+    
+      <item>
+        <title>Public Email Domain</title>
+        <description></description>
+        <pubDate>Sat, 07 May 2016 21:51:29 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/public-email-domain/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/public-email-domain/</guid>
+      </item>
+    
+      <item>
+        <title>CouchbaseLite &amp;#8211; Module maps</title>
+        <description></description>
+        <pubDate>Sun, 10 Apr 2016 17:56:22 +0200</pubDate>
+        <link>https://blog.marco.betschart.name/couchbaselite-module-maps/</link>
+        <guid isPermaLink="true">https://blog.marco.betschart.name/couchbaselite-module-maps/</guid>
+      </item>
+    
   </channel>
 </rss>
